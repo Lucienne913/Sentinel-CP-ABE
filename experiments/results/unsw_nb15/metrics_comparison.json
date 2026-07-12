@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-07-07T07:31:02.261668",
+  "dataset": "unsw_nb15",
+  "num_samples": 4671,
+  "fixed_threshold": {
+    "f1": 0.0,
+    "auc": 0.8441975545432749,
+    "fpr": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "avg_latency_ms": 0.3999884341416944
+  },
+  "adaptive_threshold": {
+    "f1": 0.0023775558725630053,
+    "auc": 0.8441975545432749,
+    "fpr": 0.06,
+    "precision": 0.14285714285714285,
+    "recall": 0.0011987532965715656,
+    "avg_latency_ms": 0.36666194725485796
+  },
+  "threshold_alpha": 0.1
+}

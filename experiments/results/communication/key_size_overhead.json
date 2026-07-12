@@ -1,0 +1,86 @@
+{
+  "10": {
+    "size_bytes": 14668.1,
+    "size_kb": 14.32,
+    "size_std_kb": 0.0,
+    "str_size_bytes": 14668.1,
+    "compression_ratio": 1.0,
+    "transmission_times": {
+      "ethernet": 0.001173448,
+      "wifi": 0.002346896,
+      "4g": 0.00586724,
+      "5g": 0.0001173448
+    },
+    "num_repeats": 10
+  },
+  "50": {
+    "size_bytes": 66869.3,
+    "size_kb": 65.3,
+    "size_std_kb": 0.0,
+    "str_size_bytes": 66869.3,
+    "compression_ratio": 1.0,
+    "transmission_times": {
+      "ethernet": 0.005349544,
+      "wifi": 0.010699088,
+      "4g": 0.026747720000000003,
+      "5g": 0.0005349544000000001
+    },
+    "num_repeats": 10
+  },
+  "100": {
+    "size_bytes": 132124.5,
+    "size_kb": 129.03,
+    "size_std_kb": 0.01,
+    "str_size_bytes": 132124.5,
+    "compression_ratio": 1.0,
+    "transmission_times": {
+      "ethernet": 0.01056996,
+      "wifi": 0.02113992,
+      "4g": 0.0528498,
+      "5g": 0.0010569960000000002
+    },
+    "num_repeats": 10
+  },
+  "500": {
+    "size_bytes": 654960.5,
+    "size_kb": 639.61,
+    "size_std_kb": 0.03,
+    "str_size_bytes": 654960.5,
+    "compression_ratio": 1.0,
+    "transmission_times": {
+      "ethernet": 0.05239683999999999,
+      "wifi": 0.10479367999999999,
+      "4g": 0.2619842,
+      "5g": 0.005239684
+    },
+    "num_repeats": 10
+  },
+  "1000": {
+    "size_bytes": 1308489.1,
+    "size_kb": 1277.82,
+    "size_std_kb": 0.03,
+    "str_size_bytes": 1308489.1,
+    "compression_ratio": 1.0,
+    "transmission_times": {
+      "ethernet": 0.10467912800000001,
+      "wifi": 0.20935825600000002,
+      "4g": 0.52339564,
+      "5g": 0.010467912800000001
+    },
+    "num_repeats": 10
+  },
+  "5000": {
+    "size_bytes": 6544854,
+    "size_kb": 6391.46,
+    "size_std_kb": 0.04,
+    "str_size_bytes": 6544854,
+    "compression_ratio": 1.0,
+    "transmission_times": {
+      "ethernet": 0.52358832,
+      "wifi": 1.04717664,
+      "4g": 2.6179416,
+      "5g": 0.052358832
+    },
+    "num_repeats": 10
+  }
+}

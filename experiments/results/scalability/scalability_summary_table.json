@@ -1,0 +1,44 @@
+{
+  "10": {
+    "keygen_ms": 182.89,
+    "encrypt_ms": 151.87,
+    "decrypt_ms": 245.9,
+    "throughput_ops": 4.07
+  },
+  "50": {
+    "keygen_ms": 845.62,
+    "encrypt_ms": 159.73,
+    "decrypt_ms": 239.54,
+    "throughput_ops": 4.17
+  },
+  "100": {
+    "keygen_ms": 1565.97,
+    "encrypt_ms": 151.45,
+    "decrypt_ms": 241.42,
+    "throughput_ops": 4.14
+  },
+  "500": {
+    "keygen_ms": 8131.86,
+    "encrypt_ms": 155.37,
+    "decrypt_ms": 250.14,
+    "throughput_ops": 4.0
+  },
+  "1000": {
+    "keygen_ms": 15672.55,
+    "encrypt_ms": 162.41,
+    "decrypt_ms": 248.76,
+    "throughput_ops": 4.02
+  },
+  "5000": {
+    "keygen_ms": 81081.06,
+    "encrypt_ms": 170.32,
+    "decrypt_ms": 247.86,
+    "throughput_ops": 4.03
+  },
+  "10000": {
+    "keygen_ms": 166357.6,
+    "encrypt_ms": 170.5,
+    "decrypt_ms": 242.25,
+    "throughput_ops": 4.13
+  }
+}

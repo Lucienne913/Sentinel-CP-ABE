@@ -1,0 +1,52 @@
+[
+  {
+    "N": 100,
+    "precompute_ms": 0.1,
+    "precompute_std": 0.0,
+    "token_gen_ms": 0.0,
+    "verify_no_ckpt_ms": 0.0,
+    "verify_no_ckpt_std": 0.0,
+    "verify_with_ckpt_ms": 0.025,
+    "token_from_seed_ms": 0.1
+  },
+  {
+    "N": 500,
+    "precompute_ms": 0.4,
+    "precompute_std": 0.1,
+    "token_gen_ms": 0.0,
+    "verify_no_ckpt_ms": 0.1,
+    "verify_no_ckpt_std": 0.0,
+    "verify_with_ckpt_ms": 0.12,
+    "token_from_seed_ms": 0.3
+  },
+  {
+    "N": 1000,
+    "precompute_ms": 0.8,
+    "precompute_std": 0.2,
+    "token_gen_ms": 0.0,
+    "verify_no_ckpt_ms": 0.3,
+    "verify_no_ckpt_std": 0.0,
+    "verify_with_ckpt_ms": 0.255,
+    "token_from_seed_ms": 0.6
+  },
+  {
+    "N": 5000,
+    "precompute_ms": 3.6,
+    "precompute_std": 0.5,
+    "token_gen_ms": 0.0,
+    "verify_no_ckpt_ms": 1.4,
+    "verify_no_ckpt_std": 0.2,
+    "verify_with_ckpt_ms": 1.849,
+    "token_from_seed_ms": 3.2
+  },
+  {
+    "N": 10000,
+    "precompute_ms": 6.5,
+    "precompute_std": 0.3,
+    "token_gen_ms": 0.0,
+    "verify_no_ckpt_ms": 2.7,
+    "verify_no_ckpt_std": 0.2,
+    "verify_with_ckpt_ms": 2.695,
+    "token_from_seed_ms": 6.1
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "10": {
+    "size_bytes": 16014.3,
+    "size_kb": 15.64,
+    "size_std_kb": 0.0,
+    "str_size_bytes": 16014.3,
+    "compression_ratio": 1.0,
+    "transmission_times": {
+      "ethernet": 0.001281144,
+      "wifi": 0.002562288,
+      "4g": 0.006405719999999999,
+      "5g": 0.0001281144
+    },
+    "num_repeats": 10
+  },
+  "50": {
+    "size_bytes": 16014.3,
+    "size_kb": 15.64,
+    "size_std_kb": 0.0,
+    "str_size_bytes": 16014.3,
+    "compression_ratio": 1.0,
+    "transmission_times": {
+      "ethernet": 0.001281144,
+      "wifi": 0.002562288,
+      "4g": 0.006405719999999999,
+      "5g": 0.0001281144
+    },
+    "num_repeats": 10
+  },
+  "100": {
+    "size_bytes": 16013.9,
+    "size_kb": 15.64,
+    "size_std_kb": 0.0,
+    "str_size_bytes": 16013.9,
+    "compression_ratio": 1.0,
+    "transmission_times": {
+      "ethernet": 0.001281112,
+      "wifi": 0.002562224,
+      "4g": 0.00640556,
+      "5g": 0.00012811120000000002
+    },
+    "num_repeats": 10
+  },
+  "500": {
+    "size_bytes": 16015.1,
+    "size_kb": 15.64,
+    "size_std_kb": 0.0,
+    "str_size_bytes": 16015.1,
+    "compression_ratio": 1.0,
+    "transmission_times": {
+      "ethernet": 0.001281208,
+      "wifi": 0.002562416,
+      "4g": 0.00640604,
+      "5g": 0.00012812080000000002
+    },
+    "num_repeats": 10
+  },
+  "1000": {
+    "size_bytes": 16016.5,
+    "size_kb": 15.64,
+    "size_std_kb": 0.0,
+    "str_size_bytes": 16016.5,
+    "compression_ratio": 1.0,
+    "transmission_times": {
+      "ethernet": 0.0012813199999999999,
+      "wifi": 0.0025626399999999997,
+      "4g": 0.0064066,
+      "5g": 0.00012813199999999999
+    },
+    "num_repeats": 10
+  },
+  "5000": {
+    "size_bytes": 16014.4,
+    "size_kb": 15.64,
+    "size_std_kb": 0.0,
+    "str_size_bytes": 16014.4,
+    "compression_ratio": 1.0,
+    "transmission_times": {
+      "ethernet": 0.0012811519999999998,
+      "wifi": 0.0025623039999999996,
+      "4g": 0.006405759999999999,
+      "5g": 0.00012811519999999998
+    },
+    "num_repeats": 10
+  }
+}

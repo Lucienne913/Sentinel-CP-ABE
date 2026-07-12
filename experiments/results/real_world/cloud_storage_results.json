@@ -1,0 +1,2113 @@
+{
+  "scenario": "Cloud Storage",
+  "num_users": 300,
+  "results": [
+    {
+      "user_id": "cloud_user_0000",
+      "granted": true,
+      "time": 0.06485271453857422,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0001",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0002",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0003",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0004",
+      "granted": true,
+      "time": 0.06485724449157715,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0005",
+      "granted": true,
+      "time": 0.06325936317443848,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0006",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0007",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0008",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0009",
+      "granted": true,
+      "time": 0.06496381759643555,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0010",
+      "granted": true,
+      "time": 0.06376123428344727,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0011",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0012",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0013",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0014",
+      "granted": true,
+      "time": 0.06410360336303711,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0015",
+      "granted": true,
+      "time": 0.06451082229614258,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0016",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0017",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0018",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0019",
+      "granted": true,
+      "time": 0.06296730041503906,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0020",
+      "granted": true,
+      "time": 0.06281924247741699,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0021",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0022",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0023",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0024",
+      "granted": true,
+      "time": 0.06972503662109375,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0025",
+      "granted": true,
+      "time": 0.0692439079284668,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0026",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0027",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0028",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0029",
+      "granted": true,
+      "time": 0.08995747566223145,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0030",
+      "granted": true,
+      "time": 0.11088943481445312,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0031",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0032",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0033",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0034",
+      "granted": true,
+      "time": 0.06479907035827637,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0035",
+      "granted": true,
+      "time": 0.06485605239868164,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0036",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0037",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0038",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0039",
+      "granted": true,
+      "time": 0.06495857238769531,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0040",
+      "granted": true,
+      "time": 0.0646967887878418,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0041",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0042",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0043",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0044",
+      "granted": true,
+      "time": 0.06547784805297852,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0045",
+      "granted": true,
+      "time": 0.06605291366577148,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0046",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0047",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0048",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0049",
+      "granted": true,
+      "time": 0.10569381713867188,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0050",
+      "granted": true,
+      "time": 0.0953671932220459,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0051",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0052",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0053",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0054",
+      "granted": true,
+      "time": 0.06444978713989258,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0055",
+      "granted": true,
+      "time": 0.06408858299255371,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0056",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0057",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0058",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0059",
+      "granted": true,
+      "time": 0.06312894821166992,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0060",
+      "granted": true,
+      "time": 0.06278705596923828,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0061",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0062",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0063",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0064",
+      "granted": true,
+      "time": 0.0646674633026123,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0065",
+      "granted": true,
+      "time": 0.06486153602600098,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0066",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0067",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0068",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0069",
+      "granted": true,
+      "time": 0.0928494930267334,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0070",
+      "granted": true,
+      "time": 0.06510639190673828,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0071",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0072",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0073",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0074",
+      "granted": true,
+      "time": 0.06449007987976074,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0075",
+      "granted": true,
+      "time": 0.0974433422088623,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0076",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0077",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0078",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0079",
+      "granted": true,
+      "time": 0.06290173530578613,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0080",
+      "granted": true,
+      "time": 0.06350016593933105,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0081",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0082",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0083",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0084",
+      "granted": true,
+      "time": 0.06400370597839355,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0085",
+      "granted": true,
+      "time": 0.06407928466796875,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0086",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0087",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0088",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0089",
+      "granted": true,
+      "time": 0.06492424011230469,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0090",
+      "granted": true,
+      "time": 0.06346821784973145,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0091",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0092",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0093",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0094",
+      "granted": true,
+      "time": 0.06376099586486816,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0095",
+      "granted": true,
+      "time": 0.06415414810180664,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0096",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0097",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0098",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0099",
+      "granted": true,
+      "time": 0.06378173828125,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0100",
+      "granted": true,
+      "time": 0.07366704940795898,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0101",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0102",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0103",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0104",
+      "granted": true,
+      "time": 0.06316089630126953,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0105",
+      "granted": true,
+      "time": 0.06273961067199707,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0106",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0107",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0108",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0109",
+      "granted": true,
+      "time": 0.06391668319702148,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0110",
+      "granted": true,
+      "time": 0.06334424018859863,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0111",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0112",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0113",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0114",
+      "granted": true,
+      "time": 0.06526064872741699,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0115",
+      "granted": true,
+      "time": 0.06553816795349121,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0116",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0117",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0118",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0119",
+      "granted": true,
+      "time": 0.0688016414642334,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0120",
+      "granted": true,
+      "time": 0.06335973739624023,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0121",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0122",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0123",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0124",
+      "granted": true,
+      "time": 0.06253170967102051,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0125",
+      "granted": true,
+      "time": 0.06356191635131836,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0126",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0127",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0128",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0129",
+      "granted": true,
+      "time": 0.06368327140808105,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0130",
+      "granted": true,
+      "time": 0.06481122970581055,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0131",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0132",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0133",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0134",
+      "granted": true,
+      "time": 0.06524848937988281,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0135",
+      "granted": true,
+      "time": 0.06424593925476074,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0136",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0137",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0138",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0139",
+      "granted": true,
+      "time": 0.06340885162353516,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0140",
+      "granted": true,
+      "time": 0.06745314598083496,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0141",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0142",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0143",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0144",
+      "granted": true,
+      "time": 0.06443309783935547,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0145",
+      "granted": true,
+      "time": 0.06524205207824707,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0146",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0147",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0148",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0149",
+      "granted": true,
+      "time": 0.06311798095703125,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0150",
+      "granted": true,
+      "time": 0.0986175537109375,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0151",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0152",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0153",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0154",
+      "granted": true,
+      "time": 0.06810355186462402,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0155",
+      "granted": true,
+      "time": 0.0636742115020752,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0156",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0157",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0158",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0159",
+      "granted": true,
+      "time": 0.061580657958984375,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0160",
+      "granted": true,
+      "time": 0.0631551742553711,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0161",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0162",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0163",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0164",
+      "granted": true,
+      "time": 0.06243538856506348,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0165",
+      "granted": true,
+      "time": 0.06314277648925781,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0166",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0167",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0168",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0169",
+      "granted": true,
+      "time": 0.06279850006103516,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0170",
+      "granted": true,
+      "time": 0.06386876106262207,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0171",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0172",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0173",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0174",
+      "granted": true,
+      "time": 0.06417036056518555,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0175",
+      "granted": true,
+      "time": 0.06284427642822266,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0176",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0177",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0178",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0179",
+      "granted": true,
+      "time": 0.06448507308959961,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0180",
+      "granted": true,
+      "time": 0.0648195743560791,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0181",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0182",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0183",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0184",
+      "granted": true,
+      "time": 0.06891059875488281,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0185",
+      "granted": true,
+      "time": 0.06566929817199707,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0186",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0187",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0188",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0189",
+      "granted": true,
+      "time": 0.06419682502746582,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0190",
+      "granted": true,
+      "time": 0.06436347961425781,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0191",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0192",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0193",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0194",
+      "granted": true,
+      "time": 0.06351017951965332,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0195",
+      "granted": true,
+      "time": 0.06529998779296875,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0196",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0197",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0198",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0199",
+      "granted": true,
+      "time": 0.06334471702575684,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0200",
+      "granted": true,
+      "time": 0.062171220779418945,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0201",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0202",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0203",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0204",
+      "granted": true,
+      "time": 0.06848978996276855,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0205",
+      "granted": true,
+      "time": 0.06525182723999023,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0206",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0207",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0208",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0209",
+      "granted": true,
+      "time": 0.062238216400146484,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0210",
+      "granted": true,
+      "time": 0.0635371208190918,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0211",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0212",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0213",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0214",
+      "granted": true,
+      "time": 0.06315207481384277,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0215",
+      "granted": true,
+      "time": 0.06245994567871094,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0216",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0217",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0218",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0219",
+      "granted": true,
+      "time": 0.06421422958374023,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0220",
+      "granted": true,
+      "time": 0.0630645751953125,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0221",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0222",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0223",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0224",
+      "granted": true,
+      "time": 0.06514620780944824,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0225",
+      "granted": true,
+      "time": 0.06678199768066406,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0226",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0227",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0228",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0229",
+      "granted": true,
+      "time": 0.06558537483215332,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0230",
+      "granted": true,
+      "time": 0.06410813331604004,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0231",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0232",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0233",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0234",
+      "granted": true,
+      "time": 0.06323051452636719,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0235",
+      "granted": true,
+      "time": 0.07251524925231934,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0236",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0237",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0238",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0239",
+      "granted": true,
+      "time": 0.06045126914978027,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0240",
+      "granted": true,
+      "time": 0.0657508373260498,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0241",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0242",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0243",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0244",
+      "granted": true,
+      "time": 0.06386065483093262,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0245",
+      "granted": true,
+      "time": 0.06758236885070801,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0246",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0247",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0248",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0249",
+      "granted": true,
+      "time": 0.06325674057006836,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0250",
+      "granted": true,
+      "time": 0.06505274772644043,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0251",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0252",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0253",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0254",
+      "granted": true,
+      "time": 0.06371259689331055,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0255",
+      "granted": true,
+      "time": 0.06293988227844238,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0256",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0257",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0258",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0259",
+      "granted": true,
+      "time": 0.06392025947570801,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0260",
+      "granted": true,
+      "time": 0.0709540843963623,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0261",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0262",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0263",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0264",
+      "granted": true,
+      "time": 0.06409168243408203,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0265",
+      "granted": true,
+      "time": 0.07082748413085938,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0266",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0267",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0268",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0269",
+      "granted": true,
+      "time": 0.06850028038024902,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0270",
+      "granted": true,
+      "time": 0.06767058372497559,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0271",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0272",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0273",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0274",
+      "granted": true,
+      "time": 0.07203364372253418,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0275",
+      "granted": true,
+      "time": 0.06661343574523926,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0276",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0277",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0278",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0279",
+      "granted": true,
+      "time": 0.06383752822875977,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0280",
+      "granted": true,
+      "time": 0.062276601791381836,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0281",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0282",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0283",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0284",
+      "granted": true,
+      "time": 0.0650181770324707,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0285",
+      "granted": true,
+      "time": 0.06345367431640625,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0286",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0287",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0288",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0289",
+      "granted": true,
+      "time": 0.06011486053466797,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0290",
+      "granted": true,
+      "time": 0.06158018112182617,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0291",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0292",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0293",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0294",
+      "granted": true,
+      "time": 0.0645911693572998,
+      "role": "owner",
+      "department": "research"
+    },
+    {
+      "user_id": "cloud_user_0295",
+      "granted": true,
+      "time": 0.06501030921936035,
+      "role": "admin",
+      "department": "engineering"
+    },
+    {
+      "user_id": "cloud_user_0296",
+      "granted": false,
+      "time": 0,
+      "role": "editor",
+      "department": "sales"
+    },
+    {
+      "user_id": "cloud_user_0297",
+      "granted": false,
+      "time": 0,
+      "role": "viewer",
+      "department": "hr"
+    },
+    {
+      "user_id": "cloud_user_0298",
+      "granted": false,
+      "time": 0,
+      "role": "manager",
+      "department": "finance"
+    },
+    {
+      "user_id": "cloud_user_0299",
+      "granted": true,
+      "time": 0.0637059211730957,
+      "role": "owner",
+      "department": "research"
+    }
+  ],
+  "summary": {
+    "encrypt_time": 0.10224652290344238,
+    "total_users": 300,
+    "success_count": 120,
+    "success_rate": 0.4,
+    "avg_decrypt_time": 0.06667942603429158
+  }
+}

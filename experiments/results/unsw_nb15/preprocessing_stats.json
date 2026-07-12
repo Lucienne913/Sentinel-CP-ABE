@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-06-02T14:30:30.612059",
+  "data_source": "real_UNSW-NB15",
+  "total_records": 5000,
+  "unique_attributes": 27,
+  "attack_distribution": {
+    "normal": 4812,
+    "exploits": 105,
+    "reconnaissance": 44,
+    "dos": 17,
+    "generic": 13,
+    "shellcode": 8,
+    "fuzzers": 1
+  },
+  "attribute_frequency": {
+    "protocol:tcp": 5000,
+    "threat:none": 4812,
+    "state:FIN": 3777,
+    "volume:medium": 3603,
+    "duration:short": 3402,
+    "service:other": 2946,
+    "duration:medium": 1598,
+    "volume:low": 1235,
+    "state:CON": 1106,
+    "service:dns": 791,
+    "service:http": 531,
+    "service:ftp-data": 307,
+    "service:smtp": 169,
+    "volume:high": 162,
+    "service:ssh": 137,
+    "threat:medium": 135,
+    "service:ftp": 104,
+    "state:RST": 60,
+    "state:INT": 45,
+    "threat:low": 45,
+    "service:pop3": 12,
+    "threat:high": 8,
+    "state:other": 6,
+    "state:REQ": 5,
+    "service:snmp": 2,
+    "state:ECO": 1,
+    "service:ssl": 1
+  },
+  "attribute_categories": {
+    "protocol": 1,
+    "service": 10,
+    "state": 7,
+    "volume": 3,
+    "threat": 4,
+    "duration": 2
+  }
+}

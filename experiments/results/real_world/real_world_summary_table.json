@@ -1,0 +1,30 @@
+{
+  "Industrial IoT": {
+    "entity_count": 100,
+    "success_count": 20,
+    "success_rate": 0.2,
+    "encrypt_ms": 75.08,
+    "avg_decrypt_ms": 68.84
+  },
+  "Healthcare": {
+    "entity_count": 50,
+    "success_count": 7,
+    "success_rate": 0.14,
+    "encrypt_ms": 56.82,
+    "avg_decrypt_ms": 65.41
+  },
+  "Smart City": {
+    "entity_count": 200,
+    "success_count": 27,
+    "success_rate": 0.135,
+    "encrypt_ms": 67.73,
+    "avg_decrypt_ms": 67.94
+  },
+  "Cloud Storage": {
+    "entity_count": 300,
+    "success_count": 120,
+    "success_rate": 0.4,
+    "encrypt_ms": 88.84,
+    "avg_decrypt_ms": 66.39
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "10": {
+    "ct_size_kb": 15.64,
+    "sk_size_kb": 14.33,
+    "ct_size_str_kb": 15.64,
+    "sk_size_str_kb": 14.33,
+    "ct_compression_ratio": 1.0,
+    "sk_compression_ratio": 1.0,
+    "ct_size_bytes_mean": 16014.83,
+    "sk_size_bytes_mean": 14669.07,
+    "encrypt_mean_ms": 156.88,
+    "encrypt_std_ms": 3.55,
+    "keygen_mean_ms": 237.91,
+    "keygen_std_ms": 4.73,
+    "transmission_times": {
+      "ethernet": 1.28,
+      "wifi": 2.56,
+      "4g": 6.41,
+      "5g": 0.13
+    },
+    "num_repeats": 100
+  },
+  "100": {
+    "ct_size_kb": 15.64,
+    "sk_size_kb": 129.03,
+    "ct_size_str_kb": 15.64,
+    "sk_size_str_kb": 129.03,
+    "ct_compression_ratio": 1.0,
+    "sk_compression_ratio": 1.0,
+    "ct_size_bytes_mean": 16015.2,
+    "sk_size_bytes_mean": 132125.89,
+    "encrypt_mean_ms": 157.57,
+    "encrypt_std_ms": 3.97,
+    "keygen_mean_ms": 2269.23,
+    "keygen_std_ms": 36.63,
+    "transmission_times": {
+      "ethernet": 1.28,
+      "wifi": 2.56,
+      "4g": 6.41,
+      "5g": 0.13
+    },
+    "num_repeats": 100
+  },
+  "500": {
+    "ct_size_kb": 15.64,
+    "sk_size_kb": 639.61,
+    "ct_size_str_kb": 15.64,
+    "sk_size_str_kb": 639.61,
+    "ct_compression_ratio": 1.0,
+    "sk_compression_ratio": 1.0,
+    "ct_size_bytes_mean": 16015.64,
+    "sk_size_bytes_mean": 654959.69,
+    "encrypt_mean_ms": 156.78,
+    "encrypt_std_ms": 3.15,
+    "keygen_mean_ms": 11242.3,
+    "keygen_std_ms": 93.57,
+    "transmission_times": {
+      "ethernet": 1.28,
+      "wifi": 2.56,
+      "4g": 6.41,
+      "5g": 0.13
+    },
+    "num_repeats": 100
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "test": "threshold_collusion_k5_n10",
+    "description": "Revoked user (5 revoked attrs) + policy k=5",
+    "fail_rate": 100.0
+  },
+  {
+    "test": "and_collusion_50pct",
+    "description": "AND policy with 50% attributes revoked",
+    "fail_rate": 100.0
+  },
+  {
+    "test": "all_revoked",
+    "description": "All attributes revoked, threshold k=5",
+    "fail_rate": 100.0
+  },
+  {
+    "test": "single_revoked_threshold",
+    "description": "1/10 attributes revoked, threshold k=5",
+    "fail_rate": 100.0
+  }
+]

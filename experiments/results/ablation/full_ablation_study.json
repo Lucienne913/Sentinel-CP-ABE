@@ -1,0 +1,93 @@
+{
+  "Full": {
+    "keygen_time": 0.0710686206817627,
+    "encrypt_time": 0.08649374723434448,
+    "decrypt_time": 0.11378956794738769,
+    "total_time": 0.2713519358634949,
+    "config": {
+      "use_time_predicate": true,
+      "use_cache": true,
+      "use_subprocess": true,
+      "use_diffusion": true,
+      "use_digital_twin": true
+    }
+  },
+  "NoTimePredicate": {
+    "keygen_time": 0.06948091983795165,
+    "encrypt_time": 0.06839022636413575,
+    "decrypt_time": 0.09436795711517335,
+    "total_time": 0.23223910331726075,
+    "config": {
+      "use_time_predicate": false,
+      "use_cache": true,
+      "use_subprocess": true,
+      "use_diffusion": true,
+      "use_digital_twin": true
+    }
+  },
+  "NoCache": {
+    "keygen_time": 0.07227554082870484,
+    "encrypt_time": 0.08218823909759522,
+    "decrypt_time": 0.10740999698638916,
+    "total_time": 0.2618737769126892,
+    "config": {
+      "use_time_predicate": true,
+      "use_cache": false,
+      "use_subprocess": true,
+      "use_diffusion": true,
+      "use_digital_twin": true
+    }
+  },
+  "NoSubprocess": {
+    "keygen_time": 0.06793780565261841,
+    "encrypt_time": 0.08086315155029297,
+    "decrypt_time": 0.10573882341384888,
+    "total_time": 0.25453978061676025,
+    "config": {
+      "use_time_predicate": true,
+      "use_cache": true,
+      "use_subprocess": false,
+      "use_diffusion": true,
+      "use_digital_twin": true
+    }
+  },
+  "NoDiffusion": {
+    "keygen_time": 0.06573801279067994,
+    "encrypt_time": 0.07585309982299805,
+    "decrypt_time": 0.10291167736053466,
+    "total_time": 0.24450278997421265,
+    "config": {
+      "use_time_predicate": true,
+      "use_cache": true,
+      "use_subprocess": true,
+      "use_diffusion": false,
+      "use_digital_twin": true
+    }
+  },
+  "NoDigitalTwin": {
+    "keygen_time": 0.06636631488800049,
+    "encrypt_time": 0.07914887189865112,
+    "decrypt_time": 0.1042138695716858,
+    "total_time": 0.2497290563583374,
+    "config": {
+      "use_time_predicate": true,
+      "use_cache": true,
+      "use_subprocess": true,
+      "use_diffusion": true,
+      "use_digital_twin": false
+    }
+  },
+  "Minimal": {
+    "keygen_time": 0.06748862504959106,
+    "encrypt_time": 0.05965227365493774,
+    "decrypt_time": 0.09175006628036499,
+    "total_time": 0.2188909649848938,
+    "config": {
+      "use_time_predicate": false,
+      "use_cache": false,
+      "use_subprocess": false,
+      "use_diffusion": false,
+      "use_digital_twin": false
+    }
+  }
+}

@@ -1,0 +1,3645 @@
+{
+  "experiment_info": {
+    "timestamp": "2026-07-11T08:45:28",
+    "num_samples": 200,
+    "threshold": 0.3
+  },
+  "aggregate_stats": {
+    "total_samples": 200,
+    "total_anomalies": 81,
+    "total_detected": 95,
+    "total_true_positives": 40,
+    "true_positive_rate": 0.49382716049382713,
+    "tp_embed_dim_stats": {
+      "mean": 49.5,
+      "median": 49.0,
+      "min": 45,
+      "max": 57,
+      "std": 2.701851217221259,
+      "pct_in_7_to_12": 0.0,
+      "pct_in_5_to_15": 0.0
+    },
+    "tp_value_counts": {
+      "45": 2,
+      "46": 3,
+      "47": 3,
+      "48": 9,
+      "49": 6,
+      "50": 4,
+      "51": 4,
+      "52": 4,
+      "53": 1,
+      "54": 2,
+      "55": 1,
+      "57": 1
+    },
+    "all_sample_dim_stats": {
+      "mean": 49.53,
+      "median": 49.0,
+      "min": 41,
+      "max": 61
+    }
+  },
+  "per_sample": [
+    {
+      "sample_id": 0,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.285092,
+      "important_embed_dims": 43,
+      "very_important_embed_dims": 25,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        20,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 1,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.271626,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 25,
+      "important_attrs": 49,
+      "top_attr_indices": [
+        59,
+        93,
+        70,
+        45,
+        0
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 2,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.214361,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 24,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        93,
+        22,
+        15,
+        16
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 3,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.335175,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 23,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        22,
+        45,
+        15,
+        0
+      ],
+      "attr_span": 59
+    },
+    {
+      "sample_id": 4,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.270372,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 25,
+      "important_attrs": 46,
+      "top_attr_indices": [
+        59,
+        22,
+        0,
+        70,
+        45
+      ],
+      "attr_span": 70
+    },
+    {
+      "sample_id": 5,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.320584,
+      "important_embed_dims": 45,
+      "very_important_embed_dims": 25,
+      "important_attrs": 51,
+      "top_attr_indices": [
+        59,
+        70,
+        22,
+        15,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 6,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.347005,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 28,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        45,
+        22,
+        15,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 7,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.242817,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 27,
+      "important_attrs": 46,
+      "top_attr_indices": [
+        45,
+        79,
+        59,
+        70,
+        93
+      ],
+      "attr_span": 48
+    },
+    {
+      "sample_id": 8,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.307672,
+      "important_embed_dims": 45,
+      "very_important_embed_dims": 29,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        45,
+        59,
+        93,
+        16,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 9,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.308199,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 32,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        59,
+        45,
+        16,
+        15,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 10,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.295514,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 24,
+      "important_attrs": 47,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        15,
+        0
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 11,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.269104,
+      "important_embed_dims": 46,
+      "very_important_embed_dims": 23,
+      "important_attrs": 40,
+      "top_attr_indices": [
+        59,
+        86,
+        22,
+        48,
+        15
+      ],
+      "attr_span": 71
+    },
+    {
+      "sample_id": 12,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.295335,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 28,
+      "important_attrs": 46,
+      "top_attr_indices": [
+        59,
+        93,
+        0,
+        22,
+        48
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 13,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.318904,
+      "important_embed_dims": 46,
+      "very_important_embed_dims": 23,
+      "important_attrs": 48,
+      "top_attr_indices": [
+        59,
+        22,
+        70,
+        45,
+        93
+      ],
+      "attr_span": 71
+    },
+    {
+      "sample_id": 14,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.277755,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 35,
+      "important_attrs": 37,
+      "top_attr_indices": [
+        59,
+        45,
+        16,
+        93,
+        79
+      ],
+      "attr_span": 77
+    },
+    {
+      "sample_id": 15,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.278066,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 26,
+      "important_attrs": 46,
+      "top_attr_indices": [
+        59,
+        16,
+        70,
+        22,
+        10
+      ],
+      "attr_span": 60
+    },
+    {
+      "sample_id": 16,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.300839,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 26,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        22,
+        15,
+        45,
+        0
+      ],
+      "attr_span": 59
+    },
+    {
+      "sample_id": 17,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.296404,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 23,
+      "important_attrs": 46,
+      "top_attr_indices": [
+        59,
+        70,
+        93,
+        0,
+        48
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 18,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.276524,
+      "important_embed_dims": 54,
+      "very_important_embed_dims": 38,
+      "important_attrs": 38,
+      "top_attr_indices": [
+        59,
+        48,
+        45,
+        15,
+        10
+      ],
+      "attr_span": 49
+    },
+    {
+      "sample_id": 19,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.249482,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 27,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        2,
+        15
+      ],
+      "attr_span": 91
+    },
+    {
+      "sample_id": 20,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.288496,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 30,
+      "important_attrs": 40,
+      "top_attr_indices": [
+        59,
+        22,
+        0,
+        45,
+        48
+      ],
+      "attr_span": 59
+    },
+    {
+      "sample_id": 21,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.254154,
+      "important_embed_dims": 61,
+      "very_important_embed_dims": 37,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        48,
+        0,
+        93,
+        22
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 22,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.229691,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 29,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        45,
+        16,
+        47,
+        93
+      ],
+      "attr_span": 77
+    },
+    {
+      "sample_id": 23,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.269935,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 26,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        93,
+        22,
+        45,
+        48
+      ],
+      "attr_span": 71
+    },
+    {
+      "sample_id": 24,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.318563,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 25,
+      "important_attrs": 46,
+      "top_attr_indices": [
+        59,
+        22,
+        15,
+        70,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 25,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.335414,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 36,
+      "important_attrs": 40,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        35
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 26,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.295225,
+      "important_embed_dims": 44,
+      "very_important_embed_dims": 27,
+      "important_attrs": 47,
+      "top_attr_indices": [
+        59,
+        70,
+        45,
+        93,
+        79
+      ],
+      "attr_span": 48
+    },
+    {
+      "sample_id": 27,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.324678,
+      "important_embed_dims": 54,
+      "very_important_embed_dims": 31,
+      "important_attrs": 40,
+      "top_attr_indices": [
+        59,
+        16,
+        93,
+        45,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 28,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.329771,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 32,
+      "important_attrs": 38,
+      "top_attr_indices": [
+        59,
+        45,
+        10,
+        79,
+        15
+      ],
+      "attr_span": 69
+    },
+    {
+      "sample_id": 29,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.367875,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 23,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        22,
+        93,
+        15,
+        45
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 30,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.26798,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 22,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        16
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 31,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.246345,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 35,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        59,
+        79,
+        93,
+        45,
+        70
+      ],
+      "attr_span": 48
+    },
+    {
+      "sample_id": 32,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.23506,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 32,
+      "important_attrs": 37,
+      "top_attr_indices": [
+        59,
+        15,
+        93,
+        0,
+        45
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 33,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.253158,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 35,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        79,
+        70
+      ],
+      "attr_span": 48
+    },
+    {
+      "sample_id": 34,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.291639,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 25,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        22,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 35,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.304914,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 22,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        22,
+        93,
+        15,
+        45
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 36,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.268861,
+      "important_embed_dims": 54,
+      "very_important_embed_dims": 33,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        15,
+        45,
+        93,
+        16
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 37,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.284755,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 28,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        16,
+        86
+      ],
+      "attr_span": 71
+    },
+    {
+      "sample_id": 38,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.241559,
+      "important_embed_dims": 56,
+      "very_important_embed_dims": 29,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        0,
+        70,
+        93,
+        10
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 39,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.303273,
+      "important_embed_dims": 53,
+      "very_important_embed_dims": 31,
+      "important_attrs": 47,
+      "top_attr_indices": [
+        59,
+        93,
+        15,
+        45,
+        0
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 40,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.280023,
+      "important_embed_dims": 43,
+      "very_important_embed_dims": 30,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        15,
+        70
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 41,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.313163,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 29,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        45,
+        10,
+        0,
+        70
+      ],
+      "attr_span": 70
+    },
+    {
+      "sample_id": 42,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.297706,
+      "important_embed_dims": 54,
+      "very_important_embed_dims": 30,
+      "important_attrs": 48,
+      "top_attr_indices": [
+        59,
+        45,
+        22,
+        93,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 43,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.328695,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 34,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        15,
+        16
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 44,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.357795,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 24,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        45,
+        22,
+        15,
+        70
+      ],
+      "attr_span": 55
+    },
+    {
+      "sample_id": 45,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.314499,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 27,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        0,
+        22
+      ],
+      "attr_span": 59
+    },
+    {
+      "sample_id": 46,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.323041,
+      "important_embed_dims": 56,
+      "very_important_embed_dims": 38,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        22,
+        45,
+        10,
+        15
+      ],
+      "attr_span": 49
+    },
+    {
+      "sample_id": 47,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.273798,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 28,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        45,
+        48,
+        79,
+        16
+      ],
+      "attr_span": 63
+    },
+    {
+      "sample_id": 48,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.292289,
+      "important_embed_dims": 53,
+      "very_important_embed_dims": 27,
+      "important_attrs": 46,
+      "top_attr_indices": [
+        59,
+        45,
+        16,
+        79,
+        93
+      ],
+      "attr_span": 77
+    },
+    {
+      "sample_id": 49,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.337762,
+      "important_embed_dims": 56,
+      "very_important_embed_dims": 25,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        16,
+        10,
+        45,
+        15
+      ],
+      "attr_span": 49
+    },
+    {
+      "sample_id": 50,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.268469,
+      "important_embed_dims": 53,
+      "very_important_embed_dims": 31,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        79,
+        70
+      ],
+      "attr_span": 48
+    },
+    {
+      "sample_id": 51,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.274895,
+      "important_embed_dims": 46,
+      "very_important_embed_dims": 34,
+      "important_attrs": 46,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        15,
+        96
+      ],
+      "attr_span": 81
+    },
+    {
+      "sample_id": 52,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.243875,
+      "important_embed_dims": 43,
+      "very_important_embed_dims": 27,
+      "important_attrs": 46,
+      "top_attr_indices": [
+        59,
+        70,
+        45,
+        79,
+        15
+      ],
+      "attr_span": 64
+    },
+    {
+      "sample_id": 53,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.281829,
+      "important_embed_dims": 54,
+      "very_important_embed_dims": 28,
+      "important_attrs": 40,
+      "top_attr_indices": [
+        59,
+        45,
+        10,
+        93,
+        48
+      ],
+      "attr_span": 83
+    },
+    {
+      "sample_id": 54,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.35595,
+      "important_embed_dims": 53,
+      "very_important_embed_dims": 28,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        15,
+        93,
+        0,
+        22
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 55,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.308548,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 28,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        22,
+        15,
+        45,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 56,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.318141,
+      "important_embed_dims": 44,
+      "very_important_embed_dims": 28,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        22,
+        15,
+        86,
+        45
+      ],
+      "attr_span": 71
+    },
+    {
+      "sample_id": 57,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.261588,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 28,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        45,
+        79,
+        15,
+        70
+      ],
+      "attr_span": 64
+    },
+    {
+      "sample_id": 58,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.290459,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 27,
+      "important_attrs": 48,
+      "top_attr_indices": [
+        59,
+        93,
+        22,
+        15,
+        45
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 59,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.251315,
+      "important_embed_dims": 53,
+      "very_important_embed_dims": 36,
+      "important_attrs": 48,
+      "top_attr_indices": [
+        59,
+        45,
+        10,
+        93,
+        16
+      ],
+      "attr_span": 83
+    },
+    {
+      "sample_id": 60,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.300972,
+      "important_embed_dims": 44,
+      "very_important_embed_dims": 26,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        45,
+        0,
+        70,
+        15
+      ],
+      "attr_span": 70
+    },
+    {
+      "sample_id": 61,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.271095,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 26,
+      "important_attrs": 47,
+      "top_attr_indices": [
+        59,
+        45,
+        79,
+        16,
+        93
+      ],
+      "attr_span": 77
+    },
+    {
+      "sample_id": 62,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.353698,
+      "important_embed_dims": 46,
+      "very_important_embed_dims": 28,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        22
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 63,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.309283,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 30,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        22,
+        70
+      ],
+      "attr_span": 55
+    },
+    {
+      "sample_id": 64,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.233339,
+      "important_embed_dims": 54,
+      "very_important_embed_dims": 29,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        59,
+        70,
+        15,
+        45,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 65,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.285288,
+      "important_embed_dims": 46,
+      "very_important_embed_dims": 21,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        15,
+        16
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 66,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.295951,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 25,
+      "important_attrs": 40,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        86,
+        0
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 67,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.268021,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 27,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        79
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 68,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.308194,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 26,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        15,
+        22,
+        45,
+        0
+      ],
+      "attr_span": 59
+    },
+    {
+      "sample_id": 69,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.307756,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 26,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        93,
+        22,
+        0,
+        16
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 70,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.307788,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 26,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        45,
+        48,
+        70,
+        79
+      ],
+      "attr_span": 34
+    },
+    {
+      "sample_id": 71,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.283554,
+      "important_embed_dims": 53,
+      "very_important_embed_dims": 30,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        70,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 72,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.301779,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 27,
+      "important_attrs": 47,
+      "top_attr_indices": [
+        59,
+        22,
+        48,
+        86,
+        15
+      ],
+      "attr_span": 71
+    },
+    {
+      "sample_id": 73,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.311667,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 21,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        70
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 74,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.319903,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 29,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        22,
+        70
+      ],
+      "attr_span": 55
+    },
+    {
+      "sample_id": 75,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.270215,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 23,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        45,
+        59,
+        93,
+        48,
+        0
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 76,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.210139,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 28,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        45,
+        79,
+        93,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 77,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.319452,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 27,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        15,
+        45,
+        22,
+        16
+      ],
+      "attr_span": 44
+    },
+    {
+      "sample_id": 78,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.263599,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 29,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        93,
+        15,
+        45,
+        70
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 79,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.286284,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 27,
+      "important_attrs": 48,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        79
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 80,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.309658,
+      "important_embed_dims": 53,
+      "very_important_embed_dims": 25,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        15,
+        22
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 81,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.318899,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 23,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        93,
+        15,
+        45,
+        22
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 82,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.351032,
+      "important_embed_dims": 54,
+      "very_important_embed_dims": 30,
+      "important_attrs": 40,
+      "top_attr_indices": [
+        59,
+        45,
+        70,
+        15,
+        16
+      ],
+      "attr_span": 55
+    },
+    {
+      "sample_id": 83,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.230882,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 33,
+      "important_attrs": 50,
+      "top_attr_indices": [
+        45,
+        93,
+        59,
+        79,
+        0
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 84,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.363879,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 27,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        22,
+        45,
+        15,
+        0
+      ],
+      "attr_span": 59
+    },
+    {
+      "sample_id": 85,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.293986,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 25,
+      "important_attrs": 47,
+      "top_attr_indices": [
+        59,
+        22,
+        48,
+        93,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 86,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.269291,
+      "important_embed_dims": 53,
+      "very_important_embed_dims": 25,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        93,
+        0,
+        59,
+        45,
+        20
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 87,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.263235,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 28,
+      "important_attrs": 48,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        10,
+        16
+      ],
+      "attr_span": 83
+    },
+    {
+      "sample_id": 88,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.3277,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 28,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        15,
+        22,
+        45,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 89,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.318024,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 27,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        15,
+        45,
+        93,
+        22
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 90,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.259991,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 31,
+      "important_attrs": 55,
+      "top_attr_indices": [
+        59,
+        15,
+        93,
+        70,
+        52
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 91,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.289857,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 38,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        45,
+        10,
+        15,
+        93
+      ],
+      "attr_span": 83
+    },
+    {
+      "sample_id": 92,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.271722,
+      "important_embed_dims": 46,
+      "very_important_embed_dims": 24,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        16,
+        45,
+        93,
+        22
+      ],
+      "attr_span": 77
+    },
+    {
+      "sample_id": 93,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.330676,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 26,
+      "important_attrs": 49,
+      "top_attr_indices": [
+        59,
+        70,
+        22,
+        45,
+        15
+      ],
+      "attr_span": 55
+    },
+    {
+      "sample_id": 94,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.265225,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 24,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        22,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 95,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.2452,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 30,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        0,
+        70,
+        45,
+        15
+      ],
+      "attr_span": 70
+    },
+    {
+      "sample_id": 96,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.291796,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 32,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        70
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 97,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.310483,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 28,
+      "important_attrs": 40,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        22,
+        79
+      ],
+      "attr_span": 71
+    },
+    {
+      "sample_id": 98,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.296323,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 29,
+      "important_attrs": 36,
+      "top_attr_indices": [
+        59,
+        45,
+        16,
+        10,
+        15
+      ],
+      "attr_span": 49
+    },
+    {
+      "sample_id": 99,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.308321,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 25,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        22
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 100,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.364124,
+      "important_embed_dims": 46,
+      "very_important_embed_dims": 30,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        10,
+        93
+      ],
+      "attr_span": 83
+    },
+    {
+      "sample_id": 101,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.320824,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 28,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        45,
+        22,
+        93,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 102,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.33601,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 26,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        45,
+        59,
+        86,
+        10,
+        15
+      ],
+      "attr_span": 76
+    },
+    {
+      "sample_id": 103,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.254122,
+      "important_embed_dims": 53,
+      "very_important_embed_dims": 27,
+      "important_attrs": 40,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        16
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 104,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.279967,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 24,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        45,
+        79,
+        16,
+        15
+      ],
+      "attr_span": 64
+    },
+    {
+      "sample_id": 105,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.302615,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 33,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        45,
+        22,
+        16,
+        93
+      ],
+      "attr_span": 77
+    },
+    {
+      "sample_id": 106,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.26131,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 27,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        79,
+        70
+      ],
+      "attr_span": 48
+    },
+    {
+      "sample_id": 107,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.331068,
+      "important_embed_dims": 55,
+      "very_important_embed_dims": 30,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        15,
+        22,
+        48,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 108,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.306823,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 30,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        45,
+        79,
+        15,
+        70
+      ],
+      "attr_span": 64
+    },
+    {
+      "sample_id": 109,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.384313,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 26,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        15,
+        45,
+        22,
+        10
+      ],
+      "attr_span": 49
+    },
+    {
+      "sample_id": 110,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.309788,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 23,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        22,
+        48
+      ],
+      "attr_span": 71
+    },
+    {
+      "sample_id": 111,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.341097,
+      "important_embed_dims": 53,
+      "very_important_embed_dims": 30,
+      "important_attrs": 46,
+      "top_attr_indices": [
+        59,
+        45,
+        22,
+        16,
+        93
+      ],
+      "attr_span": 77
+    },
+    {
+      "sample_id": 112,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.301642,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 29,
+      "important_attrs": 38,
+      "top_attr_indices": [
+        45,
+        59,
+        15,
+        0,
+        93
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 113,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.290202,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 32,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        79,
+        35
+      ],
+      "attr_span": 58
+    },
+    {
+      "sample_id": 114,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.301498,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 26,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        45,
+        10,
+        15,
+        16
+      ],
+      "attr_span": 49
+    },
+    {
+      "sample_id": 115,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.296058,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 26,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        86
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 116,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.350046,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 33,
+      "important_attrs": 38,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        79
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 117,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.248816,
+      "important_embed_dims": 45,
+      "very_important_embed_dims": 24,
+      "important_attrs": 46,
+      "top_attr_indices": [
+        59,
+        0,
+        45,
+        93,
+        16
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 118,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.363011,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 29,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        45,
+        22,
+        15,
+        70
+      ],
+      "attr_span": 55
+    },
+    {
+      "sample_id": 119,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.21985,
+      "important_embed_dims": 53,
+      "very_important_embed_dims": 31,
+      "important_attrs": 40,
+      "top_attr_indices": [
+        59,
+        10,
+        70,
+        93,
+        0
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 120,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.2962,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 26,
+      "important_attrs": 37,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        16,
+        86
+      ],
+      "attr_span": 77
+    },
+    {
+      "sample_id": 121,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.362855,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 28,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        15,
+        45,
+        22,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 122,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.2932,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 28,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        93,
+        59,
+        22,
+        45,
+        0
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 123,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.225114,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 30,
+      "important_attrs": 49,
+      "top_attr_indices": [
+        59,
+        93,
+        79,
+        70,
+        32
+      ],
+      "attr_span": 61
+    },
+    {
+      "sample_id": 124,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.283405,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 31,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        15,
+        22,
+        45,
+        0
+      ],
+      "attr_span": 59
+    },
+    {
+      "sample_id": 125,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.269438,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 34,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        46,
+        10
+      ],
+      "attr_span": 83
+    },
+    {
+      "sample_id": 126,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.306758,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 29,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        70,
+        45,
+        22,
+        0
+      ],
+      "attr_span": 70
+    },
+    {
+      "sample_id": 127,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.295207,
+      "important_embed_dims": 44,
+      "very_important_embed_dims": 24,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        45,
+        0,
+        15,
+        93
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 128,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.24454,
+      "important_embed_dims": 45,
+      "very_important_embed_dims": 23,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        93,
+        86,
+        48,
+        22
+      ],
+      "attr_span": 71
+    },
+    {
+      "sample_id": 129,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.332153,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 29,
+      "important_attrs": 40,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        48
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 130,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.300582,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 25,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        16,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 131,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.281125,
+      "important_embed_dims": 41,
+      "very_important_embed_dims": 26,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        45,
+        59,
+        93,
+        16,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 132,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.300044,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 24,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        22,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 133,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.266053,
+      "important_embed_dims": 53,
+      "very_important_embed_dims": 23,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        22,
+        59,
+        93,
+        45,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 134,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.307856,
+      "important_embed_dims": 54,
+      "very_important_embed_dims": 25,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        15,
+        45,
+        48,
+        22
+      ],
+      "attr_span": 44
+    },
+    {
+      "sample_id": 135,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.347583,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 32,
+      "important_attrs": 40,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        15,
+        0
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 136,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.379076,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 25,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        16,
+        10,
+        93,
+        15
+      ],
+      "attr_span": 83
+    },
+    {
+      "sample_id": 137,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.266118,
+      "important_embed_dims": 53,
+      "very_important_embed_dims": 28,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        16,
+        48
+      ],
+      "attr_span": 77
+    },
+    {
+      "sample_id": 138,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.288189,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 32,
+      "important_attrs": 48,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        79,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 139,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.317942,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 30,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        70,
+        93,
+        0,
+        15
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 140,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.28133,
+      "important_embed_dims": 46,
+      "very_important_embed_dims": 30,
+      "important_attrs": 40,
+      "top_attr_indices": [
+        15,
+        59,
+        45,
+        93,
+        79
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 141,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.314933,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 28,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        22,
+        0,
+        15,
+        45
+      ],
+      "attr_span": 59
+    },
+    {
+      "sample_id": 142,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.286547,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 27,
+      "important_attrs": 46,
+      "top_attr_indices": [
+        59,
+        45,
+        20,
+        15,
+        70
+      ],
+      "attr_span": 55
+    },
+    {
+      "sample_id": 143,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.314166,
+      "important_embed_dims": 54,
+      "very_important_embed_dims": 25,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        10,
+        16
+      ],
+      "attr_span": 49
+    },
+    {
+      "sample_id": 144,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.247934,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 22,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        22,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 145,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.325889,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 27,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        45,
+        22,
+        15,
+        16
+      ],
+      "attr_span": 44
+    },
+    {
+      "sample_id": 146,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.248915,
+      "important_embed_dims": 45,
+      "very_important_embed_dims": 29,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        70,
+        15,
+        22,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 147,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.271467,
+      "important_embed_dims": 45,
+      "very_important_embed_dims": 30,
+      "important_attrs": 47,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        70,
+        79
+      ],
+      "attr_span": 48
+    },
+    {
+      "sample_id": 148,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.304993,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 23,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        16,
+        22
+      ],
+      "attr_span": 77
+    },
+    {
+      "sample_id": 149,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.244221,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 25,
+      "important_attrs": 48,
+      "top_attr_indices": [
+        59,
+        93,
+        48,
+        45,
+        0
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 150,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.307685,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 26,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        22,
+        15,
+        0,
+        93
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 151,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.320832,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 30,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        16,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 152,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.33824,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 28,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        15,
+        45,
+        48,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 153,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.263871,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 37,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        15,
+        93,
+        10,
+        0
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 154,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.288822,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 20,
+      "important_attrs": 48,
+      "top_attr_indices": [
+        59,
+        22,
+        0,
+        70,
+        93
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 155,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.305324,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 26,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        22,
+        15,
+        45,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 156,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.317359,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 30,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        45,
+        48,
+        15,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 157,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.307935,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 26,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        16,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 158,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.342242,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 34,
+      "important_attrs": 40,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        22,
+        79
+      ],
+      "attr_span": 64
+    },
+    {
+      "sample_id": 159,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.313536,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 30,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        45,
+        59,
+        15,
+        93,
+        22
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 160,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.289828,
+      "important_embed_dims": 54,
+      "very_important_embed_dims": 33,
+      "important_attrs": 36,
+      "top_attr_indices": [
+        59,
+        45,
+        16,
+        10,
+        93
+      ],
+      "attr_span": 83
+    },
+    {
+      "sample_id": 161,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.33942,
+      "important_embed_dims": 53,
+      "very_important_embed_dims": 27,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        45,
+        0,
+        93,
+        16
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 162,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.318344,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 33,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        79
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 163,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.303291,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 28,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        45,
+        16,
+        59,
+        93,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 164,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.30153,
+      "important_embed_dims": 45,
+      "very_important_embed_dims": 28,
+      "important_attrs": 38,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        16,
+        22
+      ],
+      "attr_span": 77
+    },
+    {
+      "sample_id": 165,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.277962,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 27,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        15,
+        45,
+        22,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 166,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.311605,
+      "important_embed_dims": 46,
+      "very_important_embed_dims": 27,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        22
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 167,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.319353,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 26,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        16,
+        93
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 168,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.22586,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 25,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        93,
+        0,
+        15,
+        10
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 169,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.281545,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 33,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        45,
+        59,
+        79,
+        93,
+        70
+      ],
+      "attr_span": 48
+    },
+    {
+      "sample_id": 170,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.277445,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 28,
+      "important_attrs": 46,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        15,
+        35
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 171,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.265983,
+      "important_embed_dims": 54,
+      "very_important_embed_dims": 38,
+      "important_attrs": 38,
+      "top_attr_indices": [
+        59,
+        93,
+        70,
+        10,
+        47
+      ],
+      "attr_span": 83
+    },
+    {
+      "sample_id": 172,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.293257,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 31,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        15,
+        16
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 173,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.274844,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 30,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        0
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 174,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.207939,
+      "important_embed_dims": 44,
+      "very_important_embed_dims": 24,
+      "important_attrs": 38,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        0,
+        15
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 175,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.296782,
+      "important_embed_dims": 55,
+      "very_important_embed_dims": 28,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        16,
+        10
+      ],
+      "attr_span": 49
+    },
+    {
+      "sample_id": 176,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.240942,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 31,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        15,
+        16
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 177,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.337064,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 29,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        59,
+        45,
+        22,
+        15,
+        0
+      ],
+      "attr_span": 59
+    },
+    {
+      "sample_id": 178,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.299484,
+      "important_embed_dims": 51,
+      "very_important_embed_dims": 27,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        59,
+        70,
+        45,
+        79,
+        86
+      ],
+      "attr_span": 41
+    },
+    {
+      "sample_id": 179,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.380649,
+      "important_embed_dims": 42,
+      "very_important_embed_dims": 23,
+      "important_attrs": 47,
+      "top_attr_indices": [
+        59,
+        22,
+        45,
+        15,
+        70
+      ],
+      "attr_span": 55
+    },
+    {
+      "sample_id": 180,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.312004,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 26,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        70
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 181,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.268598,
+      "important_embed_dims": 46,
+      "very_important_embed_dims": 24,
+      "important_attrs": 46,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        15,
+        0
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 182,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.29957,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 29,
+      "important_attrs": 46,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        15,
+        79
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 183,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.302276,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 29,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        45,
+        59,
+        93,
+        16,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 184,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.275285,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 28,
+      "important_attrs": 40,
+      "top_attr_indices": [
+        59,
+        93,
+        70,
+        45,
+        16
+      ],
+      "attr_span": 77
+    },
+    {
+      "sample_id": 185,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.299797,
+      "important_embed_dims": 54,
+      "very_important_embed_dims": 30,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        15,
+        22,
+        93,
+        45
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 186,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.310828,
+      "important_embed_dims": 57,
+      "very_important_embed_dims": 29,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        16,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 187,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.292589,
+      "important_embed_dims": 46,
+      "very_important_embed_dims": 24,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        16,
+        22,
+        93,
+        45
+      ],
+      "attr_span": 77
+    },
+    {
+      "sample_id": 188,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.305721,
+      "important_embed_dims": 45,
+      "very_important_embed_dims": 30,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        45,
+        0,
+        93,
+        15
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 189,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.267316,
+      "important_embed_dims": 44,
+      "very_important_embed_dims": 23,
+      "important_attrs": 45,
+      "top_attr_indices": [
+        45,
+        59,
+        93,
+        15,
+        35
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 190,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.346489,
+      "important_embed_dims": 53,
+      "very_important_embed_dims": 30,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        59,
+        15,
+        45,
+        93,
+        22
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 191,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.325958,
+      "important_embed_dims": 49,
+      "very_important_embed_dims": 27,
+      "important_attrs": 41,
+      "top_attr_indices": [
+        59,
+        93,
+        22,
+        0,
+        15
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 192,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.334257,
+      "important_embed_dims": 56,
+      "very_important_embed_dims": 30,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        59,
+        22,
+        45,
+        15,
+        0
+      ],
+      "attr_span": 59
+    },
+    {
+      "sample_id": 193,
+      "is_anomaly": false,
+      "prediction": true,
+      "is_true_positive": false,
+      "anomaly_score": 0.308066,
+      "important_embed_dims": 58,
+      "very_important_embed_dims": 32,
+      "important_attrs": 37,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        16,
+        46
+      ],
+      "attr_span": 77
+    },
+    {
+      "sample_id": 194,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.313868,
+      "important_embed_dims": 46,
+      "very_important_embed_dims": 35,
+      "important_attrs": 44,
+      "top_attr_indices": [
+        59,
+        93,
+        45,
+        15,
+        35
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 195,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.320072,
+      "important_embed_dims": 52,
+      "very_important_embed_dims": 25,
+      "important_attrs": 43,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        16,
+        15
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 196,
+      "is_anomaly": true,
+      "prediction": true,
+      "is_true_positive": true,
+      "anomaly_score": 0.303244,
+      "important_embed_dims": 48,
+      "very_important_embed_dims": 25,
+      "important_attrs": 47,
+      "top_attr_indices": [
+        59,
+        93,
+        70,
+        0,
+        45
+      ],
+      "attr_span": 93
+    },
+    {
+      "sample_id": 197,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.270716,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 21,
+      "important_attrs": 39,
+      "top_attr_indices": [
+        59,
+        45,
+        93,
+        86,
+        16
+      ],
+      "attr_span": 77
+    },
+    {
+      "sample_id": 198,
+      "is_anomaly": true,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.292656,
+      "important_embed_dims": 50,
+      "very_important_embed_dims": 31,
+      "important_attrs": 47,
+      "top_attr_indices": [
+        59,
+        45,
+        15,
+        93,
+        16
+      ],
+      "attr_span": 78
+    },
+    {
+      "sample_id": 199,
+      "is_anomaly": false,
+      "prediction": false,
+      "is_true_positive": false,
+      "anomaly_score": 0.292253,
+      "important_embed_dims": 47,
+      "very_important_embed_dims": 24,
+      "important_attrs": 42,
+      "top_attr_indices": [
+        59,
+        93,
+        48,
+        45,
+        16
+      ],
+      "attr_span": 77
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "n_revoke": 1,
+    "n_total": 20,
+    "revoke_pct": 5,
+    "revoke_time_ms": 0.0,
+    "revoke_time_std": 0.0,
+    "old_key_decrypt_fail_rate": 100,
+    "new_encrypt_ms": 346.2,
+    "new_encrypt_std": 11.9
+  },
+  {
+    "n_revoke": 5,
+    "n_total": 20,
+    "revoke_pct": 25,
+    "revoke_time_ms": 0.0,
+    "revoke_time_std": 0.0,
+    "old_key_decrypt_fail_rate": 100,
+    "new_encrypt_ms": 361.1,
+    "new_encrypt_std": 13.2
+  },
+  {
+    "n_revoke": 10,
+    "n_total": 20,
+    "revoke_pct": 50,
+    "revoke_time_ms": 0.0,
+    "revoke_time_std": 0.0,
+    "old_key_decrypt_fail_rate": 100,
+    "new_encrypt_ms": 353.9,
+    "new_encrypt_std": 13.8
+  },
+  {
+    "n_revoke": 20,
+    "n_total": 20,
+    "revoke_pct": 100,
+    "revoke_time_ms": 0.0,
+    "revoke_time_std": 0.0,
+    "old_key_decrypt_fail_rate": 100,
+    "new_encrypt_ms": 351.6,
+    "new_encrypt_std": 9.5
+  }
+]

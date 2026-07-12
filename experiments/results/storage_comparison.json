@@ -1,0 +1,38 @@
+[
+  {
+    "n_attrs": 10,
+    "bsw_sk_kb": 1.85,
+    "bsw_ct_kb": 2.02,
+    "tcp_sk_kb": 3.65,
+    "tcp_ct_kb": 0.52,
+    "sk_ratio": 1.98,
+    "ct_ratio": 0.26
+  },
+  {
+    "n_attrs": 20,
+    "bsw_sk_kb": 3.6,
+    "bsw_ct_kb": 3.77,
+    "tcp_sk_kb": 7.13,
+    "tcp_ct_kb": 0.52,
+    "sk_ratio": 1.98,
+    "ct_ratio": 0.14
+  },
+  {
+    "n_attrs": 50,
+    "bsw_sk_kb": 8.88,
+    "bsw_ct_kb": 9.05,
+    "tcp_sk_kb": 17.56,
+    "tcp_ct_kb": 0.52,
+    "sk_ratio": 1.98,
+    "ct_ratio": 0.06
+  },
+  {
+    "n_attrs": 100,
+    "bsw_sk_kb": 17.67,
+    "bsw_ct_kb": 17.84,
+    "tcp_sk_kb": 34.94,
+    "tcp_ct_kb": 0.52,
+    "sk_ratio": 1.98,
+    "ct_ratio": 0.03
+  }
+]

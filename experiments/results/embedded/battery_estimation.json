@@ -1,0 +1,26 @@
+{
+  "10": {
+    "keygen_time_s": 0.0257,
+    "encrypt_time_s": 0.0087,
+    "decrypt_time_s": 0.0073,
+    "ops_per_hour_keygen": 139988.0,
+    "ops_per_hour_encrypt": 415895.0,
+    "ops_per_hour_decrypt": 494126.0
+  },
+  "50": {
+    "keygen_time_s": 0.1132,
+    "encrypt_time_s": 0.008,
+    "decrypt_time_s": 0.0066,
+    "ops_per_hour_keygen": 31790.0,
+    "ops_per_hour_encrypt": 451824.0,
+    "ops_per_hour_decrypt": 547837.0
+  },
+  "100": {
+    "keygen_time_s": 0.1967,
+    "encrypt_time_s": 0.0064,
+    "decrypt_time_s": 0.0052,
+    "ops_per_hour_keygen": 18298.0,
+    "ops_per_hour_encrypt": 562155.0,
+    "ops_per_hour_decrypt": 688971.0
+  }
+}

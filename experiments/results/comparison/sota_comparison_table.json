@@ -1,0 +1,170 @@
+{
+  "BSW07_10": {
+    "scheme": "BSW07",
+    "num_attrs": 10,
+    "keygen_ms": 96.02,
+    "encrypt_ms": 95.99,
+    "decrypt_ms": 241.46
+  },
+  "LightweightABE_10": {
+    "scheme": "LightweightABE",
+    "num_attrs": 10,
+    "keygen_ms": 95.4,
+    "encrypt_ms": 96.23,
+    "decrypt_ms": 241.2
+  },
+  "OurScheme_10": {
+    "scheme": "OurScheme (T-CP-ABE)",
+    "num_attrs": 10,
+    "keygen_ms": 176.15,
+    "encrypt_ms": 150.88,
+    "decrypt_ms": 238.21
+  },
+  "BSW07_50": {
+    "scheme": "BSW07",
+    "num_attrs": 50,
+    "keygen_ms": 449.92,
+    "encrypt_ms": 95.77,
+    "decrypt_ms": 248.61
+  },
+  "LightweightABE_50": {
+    "scheme": "LightweightABE",
+    "num_attrs": 50,
+    "keygen_ms": 439.88,
+    "encrypt_ms": 95.55,
+    "decrypt_ms": 241.16
+  },
+  "OurScheme_50": {
+    "scheme": "OurScheme (T-CP-ABE)",
+    "num_attrs": 50,
+    "keygen_ms": 803.24,
+    "encrypt_ms": 152.99,
+    "decrypt_ms": 239.55
+  },
+  "BSW07_100": {
+    "scheme": "BSW07",
+    "num_attrs": 100,
+    "keygen_ms": 885.79,
+    "encrypt_ms": 96.07,
+    "decrypt_ms": 240.83
+  },
+  "LightweightABE_100": {
+    "scheme": "LightweightABE",
+    "num_attrs": 100,
+    "keygen_ms": 872.22,
+    "encrypt_ms": 95.98,
+    "decrypt_ms": 243.16
+  },
+  "OurScheme_100": {
+    "scheme": "OurScheme (T-CP-ABE)",
+    "num_attrs": 100,
+    "keygen_ms": 1596.41,
+    "encrypt_ms": 153.92,
+    "decrypt_ms": 240.42
+  },
+  "BSW07_200": {
+    "scheme": "BSW07",
+    "num_attrs": 200,
+    "keygen_ms": 1784.73,
+    "encrypt_ms": 96.44,
+    "decrypt_ms": 243.57
+  },
+  "LightweightABE_200": {
+    "scheme": "LightweightABE",
+    "num_attrs": 200,
+    "keygen_ms": 1772.35,
+    "encrypt_ms": 96.07,
+    "decrypt_ms": 243.72
+  },
+  "OurScheme_200": {
+    "scheme": "OurScheme (T-CP-ABE)",
+    "num_attrs": 200,
+    "keygen_ms": 3155.54,
+    "encrypt_ms": 151.56,
+    "decrypt_ms": 249.29
+  },
+  "BSW07_500": {
+    "scheme": "BSW07",
+    "num_attrs": 500,
+    "keygen_ms": 4365.66,
+    "encrypt_ms": 97.06,
+    "decrypt_ms": 244.32
+  },
+  "LightweightABE_500": {
+    "scheme": "LightweightABE",
+    "num_attrs": 500,
+    "keygen_ms": 4464.29,
+    "encrypt_ms": 95.59,
+    "decrypt_ms": 242.39
+  },
+  "OurScheme_500": {
+    "scheme": "OurScheme (T-CP-ABE)",
+    "num_attrs": 500,
+    "keygen_ms": 7776.08,
+    "encrypt_ms": 150.7,
+    "decrypt_ms": 243.98
+  },
+  "BSW07_1000": {
+    "scheme": "BSW07",
+    "num_attrs": 1000,
+    "keygen_ms": 8696.82,
+    "encrypt_ms": 95.33,
+    "decrypt_ms": 242.21
+  },
+  "LightweightABE_1000": {
+    "scheme": "LightweightABE",
+    "num_attrs": 1000,
+    "keygen_ms": 8690.53,
+    "encrypt_ms": 101.9,
+    "decrypt_ms": 257.71
+  },
+  "OurScheme_1000": {
+    "scheme": "OurScheme (T-CP-ABE)",
+    "num_attrs": 1000,
+    "keygen_ms": 15449.68,
+    "encrypt_ms": 150.26,
+    "decrypt_ms": 238.86
+  },
+  "BSW07_5000": {
+    "scheme": "BSW07",
+    "num_attrs": 5000,
+    "keygen_ms": 43409.04,
+    "encrypt_ms": 95.68,
+    "decrypt_ms": 242.87
+  },
+  "LightweightABE_5000": {
+    "scheme": "LightweightABE",
+    "num_attrs": 5000,
+    "keygen_ms": 43514.9,
+    "encrypt_ms": 103.06,
+    "decrypt_ms": 258.49
+  },
+  "OurScheme_5000": {
+    "scheme": "OurScheme (T-CP-ABE)",
+    "num_attrs": 5000,
+    "keygen_ms": 79596.38,
+    "encrypt_ms": 169.75,
+    "decrypt_ms": 250.03
+  },
+  "BSW07_10000": {
+    "scheme": "BSW07",
+    "num_attrs": 10000,
+    "keygen_ms": 2693383.54,
+    "encrypt_ms": 105.46,
+    "decrypt_ms": 254.66
+  },
+  "LightweightABE_10000": {
+    "scheme": "LightweightABE",
+    "num_attrs": 10000,
+    "keygen_ms": 87273.11,
+    "encrypt_ms": 105.16,
+    "decrypt_ms": 241.5
+  },
+  "OurScheme_10000": {
+    "scheme": "OurScheme (T-CP-ABE)",
+    "num_attrs": 10000,
+    "keygen_ms": 161376.48,
+    "encrypt_ms": 168.62,
+    "decrypt_ms": 236.16
+  }
+}

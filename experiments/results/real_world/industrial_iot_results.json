@@ -1,0 +1,713 @@
+{
+  "scenario": "Industrial IoT",
+  "num_devices": 100,
+  "results": [
+    {
+      "device_id": "iot_device_0000",
+      "granted": false,
+      "time": 0,
+      "location": "factory_a",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0001",
+      "granted": true,
+      "time": 0.0690152645111084,
+      "location": "factory_b",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0002",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0003",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0004",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0005",
+      "granted": true,
+      "time": 0.06630659103393555,
+      "location": "factory_a",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0006",
+      "granted": false,
+      "time": 0,
+      "location": "factory_b",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0007",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0008",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0009",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0010",
+      "granted": false,
+      "time": 0,
+      "location": "factory_a",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0011",
+      "granted": true,
+      "time": 0.06329488754272461,
+      "location": "factory_b",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0012",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0013",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0014",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0015",
+      "granted": true,
+      "time": 0.06371688842773438,
+      "location": "factory_a",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0016",
+      "granted": false,
+      "time": 0,
+      "location": "factory_b",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0017",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0018",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0019",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0020",
+      "granted": false,
+      "time": 0,
+      "location": "factory_a",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0021",
+      "granted": true,
+      "time": 0.06549263000488281,
+      "location": "factory_b",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0022",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0023",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0024",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0025",
+      "granted": true,
+      "time": 0.06624650955200195,
+      "location": "factory_a",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0026",
+      "granted": false,
+      "time": 0,
+      "location": "factory_b",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0027",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0028",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0029",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0030",
+      "granted": false,
+      "time": 0,
+      "location": "factory_a",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0031",
+      "granted": true,
+      "time": 0.06376981735229492,
+      "location": "factory_b",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0032",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0033",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0034",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0035",
+      "granted": true,
+      "time": 0.10213351249694824,
+      "location": "factory_a",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0036",
+      "granted": false,
+      "time": 0,
+      "location": "factory_b",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0037",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0038",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0039",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0040",
+      "granted": false,
+      "time": 0,
+      "location": "factory_a",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0041",
+      "granted": true,
+      "time": 0.06329727172851562,
+      "location": "factory_b",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0042",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0043",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0044",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0045",
+      "granted": true,
+      "time": 0.06415128707885742,
+      "location": "factory_a",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0046",
+      "granted": false,
+      "time": 0,
+      "location": "factory_b",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0047",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0048",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0049",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0050",
+      "granted": false,
+      "time": 0,
+      "location": "factory_a",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0051",
+      "granted": true,
+      "time": 0.06362223625183105,
+      "location": "factory_b",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0052",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0053",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0054",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0055",
+      "granted": true,
+      "time": 0.06802773475646973,
+      "location": "factory_a",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0056",
+      "granted": false,
+      "time": 0,
+      "location": "factory_b",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0057",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0058",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0059",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0060",
+      "granted": false,
+      "time": 0,
+      "location": "factory_a",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0061",
+      "granted": true,
+      "time": 0.07155323028564453,
+      "location": "factory_b",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0062",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0063",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0064",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0065",
+      "granted": true,
+      "time": 0.07114601135253906,
+      "location": "factory_a",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0066",
+      "granted": false,
+      "time": 0,
+      "location": "factory_b",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0067",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0068",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0069",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0070",
+      "granted": false,
+      "time": 0,
+      "location": "factory_a",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0071",
+      "granted": true,
+      "time": 0.0646204948425293,
+      "location": "factory_b",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0072",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0073",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0074",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0075",
+      "granted": true,
+      "time": 0.06681180000305176,
+      "location": "factory_a",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0076",
+      "granted": false,
+      "time": 0,
+      "location": "factory_b",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0077",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0078",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0079",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0080",
+      "granted": false,
+      "time": 0,
+      "location": "factory_a",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0081",
+      "granted": true,
+      "time": 0.06302142143249512,
+      "location": "factory_b",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0082",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0083",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0084",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0085",
+      "granted": true,
+      "time": 0.07171034812927246,
+      "location": "factory_a",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0086",
+      "granted": false,
+      "time": 0,
+      "location": "factory_b",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0087",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0088",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0089",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0090",
+      "granted": false,
+      "time": 0,
+      "location": "factory_a",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0091",
+      "granted": true,
+      "time": 0.06400871276855469,
+      "location": "factory_b",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0092",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0093",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0094",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0095",
+      "granted": true,
+      "time": 0.0652320384979248,
+      "location": "factory_a",
+      "role": "engineer"
+    },
+    {
+      "device_id": "iot_device_0096",
+      "granted": false,
+      "time": 0,
+      "location": "factory_b",
+      "role": "operator"
+    },
+    {
+      "device_id": "iot_device_0097",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_1",
+      "role": "technician"
+    },
+    {
+      "device_id": "iot_device_0098",
+      "granted": false,
+      "time": 0,
+      "location": "warehouse_2",
+      "role": "manager"
+    },
+    {
+      "device_id": "iot_device_0099",
+      "granted": false,
+      "time": 0,
+      "location": "maintenance",
+      "role": "engineer"
+    }
+  ],
+  "summary": {
+    "encrypt_time": 0.08694863319396973,
+    "total_devices": 100,
+    "success_count": 20,
+    "success_rate": 0.2,
+    "avg_decrypt_time": 0.06785893440246582
+  }
+}

@@ -1,0 +1,608 @@
+{
+  "experiment_info": {
+    "timestamp": "2026-07-07T07:38:52.528226",
+    "chain_lengths": [
+      1000,
+      8760,
+      100000
+    ],
+    "checkpoint_interval": 100,
+    "window_size": 10
+  },
+  "chains": [
+    {
+      "chain_length": 1000,
+      "checkpoint_interval": 100,
+      "window_size": 10,
+      "num_checkpoints": 10,
+      "checkpoint_storage_kb": 0.31,
+      "orig": {
+        "pos_0": {
+          "position": 0,
+          "distance_from_tip": 999,
+          "expected_hashes": 999,
+          "avg_latency_us": 407.399,
+          "p95_latency_us": 672.384,
+          "p99_latency_us": 681.461,
+          "n_repeats": 30
+        },
+        "pos_99": {
+          "position": 99,
+          "distance_from_tip": 900,
+          "expected_hashes": 900,
+          "avg_latency_us": 386.548,
+          "p95_latency_us": 587.538,
+          "p99_latency_us": 642.916,
+          "n_repeats": 30
+        },
+        "pos_249": {
+          "position": 249,
+          "distance_from_tip": 750,
+          "expected_hashes": 750,
+          "avg_latency_us": 330.396,
+          "p95_latency_us": 568.592,
+          "p99_latency_us": 648.217,
+          "n_repeats": 30
+        },
+        "pos_499": {
+          "position": 499,
+          "distance_from_tip": 500,
+          "expected_hashes": 500,
+          "avg_latency_us": 200.767,
+          "p95_latency_us": 227.104,
+          "p99_latency_us": 366.427,
+          "n_repeats": 30
+        },
+        "pos_749": {
+          "position": 749,
+          "distance_from_tip": 250,
+          "expected_hashes": 250,
+          "avg_latency_us": 104.373,
+          "p95_latency_us": 114.063,
+          "p99_latency_us": 319.695,
+          "n_repeats": 30
+        },
+        "pos_899": {
+          "position": 899,
+          "distance_from_tip": 100,
+          "expected_hashes": 100,
+          "avg_latency_us": 39.225,
+          "p95_latency_us": 42.403,
+          "p99_latency_us": 51.972,
+          "n_repeats": 30
+        },
+        "pos_989": {
+          "position": 989,
+          "distance_from_tip": 10,
+          "expected_hashes": 10,
+          "avg_latency_us": 5.409,
+          "p95_latency_us": 7.034,
+          "p99_latency_us": 19.929,
+          "n_repeats": 30
+        }
+      },
+      "opt": {
+        "pos_0": {
+          "position": 0,
+          "distance_from_tip": 999,
+          "expected_hashes": 999,
+          "avg_latency_us": 1.713,
+          "p95_latency_us": 0.672,
+          "p99_latency_us": 44.497,
+          "n_repeats": 30
+        },
+        "pos_99": {
+          "position": 99,
+          "distance_from_tip": 900,
+          "expected_hashes": 900,
+          "avg_latency_us": 0.323,
+          "p95_latency_us": 0.451,
+          "p99_latency_us": 2.605,
+          "n_repeats": 30
+        },
+        "pos_249": {
+          "position": 249,
+          "distance_from_tip": 750,
+          "expected_hashes": 750,
+          "avg_latency_us": 0.974,
+          "p95_latency_us": 0.36,
+          "p99_latency_us": 21.742,
+          "n_repeats": 30
+        },
+        "pos_499": {
+          "position": 499,
+          "distance_from_tip": 500,
+          "expected_hashes": 500,
+          "avg_latency_us": 0.33,
+          "p95_latency_us": 0.341,
+          "p99_latency_us": 1.904,
+          "n_repeats": 30
+        },
+        "pos_749": {
+          "position": 749,
+          "distance_from_tip": 250,
+          "expected_hashes": 250,
+          "avg_latency_us": 0.973,
+          "p95_latency_us": 0.39,
+          "p99_latency_us": 20.68,
+          "n_repeats": 30
+        },
+        "pos_899": {
+          "position": 899,
+          "distance_from_tip": 100,
+          "expected_hashes": 100,
+          "avg_latency_us": 0.352,
+          "p95_latency_us": 0.38,
+          "p99_latency_us": 1.623,
+          "n_repeats": 30
+        },
+        "pos_989": {
+          "position": 989,
+          "distance_from_tip": 10,
+          "expected_hashes": 10,
+          "avg_latency_us": 0.503,
+          "p95_latency_us": 0.391,
+          "p99_latency_us": 5.501,
+          "n_repeats": 30
+        }
+      },
+      "comparison": {
+        "pos_0": {
+          "position": 0,
+          "distance_from_tip": 999,
+          "expected_hashes": 999,
+          "original_latency_us": 407.399,
+          "optimized_latency_us": 1.713,
+          "speedup_x": 237.83
+        },
+        "pos_99": {
+          "position": 99,
+          "distance_from_tip": 900,
+          "expected_hashes": 900,
+          "original_latency_us": 386.548,
+          "optimized_latency_us": 0.323,
+          "speedup_x": 1196.74
+        },
+        "pos_249": {
+          "position": 249,
+          "distance_from_tip": 750,
+          "expected_hashes": 750,
+          "original_latency_us": 330.396,
+          "optimized_latency_us": 0.974,
+          "speedup_x": 339.22
+        },
+        "pos_499": {
+          "position": 499,
+          "distance_from_tip": 500,
+          "expected_hashes": 500,
+          "original_latency_us": 200.767,
+          "optimized_latency_us": 0.33,
+          "speedup_x": 608.38
+        },
+        "pos_749": {
+          "position": 749,
+          "distance_from_tip": 250,
+          "expected_hashes": 250,
+          "original_latency_us": 104.373,
+          "optimized_latency_us": 0.973,
+          "speedup_x": 107.27
+        },
+        "pos_899": {
+          "position": 899,
+          "distance_from_tip": 100,
+          "expected_hashes": 100,
+          "original_latency_us": 39.225,
+          "optimized_latency_us": 0.352,
+          "speedup_x": 111.43
+        },
+        "pos_989": {
+          "position": 989,
+          "distance_from_tip": 10,
+          "expected_hashes": 10,
+          "original_latency_us": 5.409,
+          "optimized_latency_us": 0.503,
+          "speedup_x": 10.75
+        }
+      },
+      "avg_speedup_x": 373.09,
+      "max_speedup_x": 1196.74,
+      "hot_token_latency_us": 0.416
+    },
+    {
+      "chain_length": 8760,
+      "checkpoint_interval": 100,
+      "window_size": 10,
+      "num_checkpoints": 88,
+      "checkpoint_storage_kb": 2.75,
+      "orig": {
+        "pos_0": {
+          "position": 0,
+          "distance_from_tip": 8759,
+          "expected_hashes": 8759,
+          "avg_latency_us": 3723.697,
+          "p95_latency_us": 4168.095,
+          "p99_latency_us": 5064.859,
+          "n_repeats": 30
+        },
+        "pos_875": {
+          "position": 875,
+          "distance_from_tip": 7884,
+          "expected_hashes": 7884,
+          "avg_latency_us": 3158.737,
+          "p95_latency_us": 3310.209,
+          "p99_latency_us": 3498.387,
+          "n_repeats": 30
+        },
+        "pos_2189": {
+          "position": 2189,
+          "distance_from_tip": 6570,
+          "expected_hashes": 6570,
+          "avg_latency_us": 2659.581,
+          "p95_latency_us": 2800.322,
+          "p99_latency_us": 3341.039,
+          "n_repeats": 30
+        },
+        "pos_4379": {
+          "position": 4379,
+          "distance_from_tip": 4380,
+          "expected_hashes": 4380,
+          "avg_latency_us": 1737.824,
+          "p95_latency_us": 1869.464,
+          "p99_latency_us": 1920.924,
+          "n_repeats": 30
+        },
+        "pos_6569": {
+          "position": 6569,
+          "distance_from_tip": 2190,
+          "expected_hashes": 2190,
+          "avg_latency_us": 845.932,
+          "p95_latency_us": 867.245,
+          "p99_latency_us": 877.495,
+          "n_repeats": 30
+        },
+        "pos_7883": {
+          "position": 7883,
+          "distance_from_tip": 876,
+          "expected_hashes": 876,
+          "avg_latency_us": 341.285,
+          "p95_latency_us": 360.745,
+          "p99_latency_us": 381.465,
+          "n_repeats": 30
+        },
+        "pos_8671": {
+          "position": 8671,
+          "distance_from_tip": 88,
+          "expected_hashes": 88,
+          "avg_latency_us": 34.351,
+          "p95_latency_us": 39.918,
+          "p99_latency_us": 47.783,
+          "n_repeats": 30
+        }
+      },
+      "opt": {
+        "pos_0": {
+          "position": 0,
+          "distance_from_tip": 8759,
+          "expected_hashes": 8759,
+          "avg_latency_us": 1.712,
+          "p95_latency_us": 0.631,
+          "p99_latency_us": 44.657,
+          "n_repeats": 30
+        },
+        "pos_875": {
+          "position": 875,
+          "distance_from_tip": 7884,
+          "expected_hashes": 7884,
+          "avg_latency_us": 0.632,
+          "p95_latency_us": 0.461,
+          "p99_latency_us": 11.893,
+          "n_repeats": 30
+        },
+        "pos_2189": {
+          "position": 2189,
+          "distance_from_tip": 6570,
+          "expected_hashes": 6570,
+          "avg_latency_us": 0.456,
+          "p95_latency_us": 0.34,
+          "p99_latency_us": 6.232,
+          "n_repeats": 30
+        },
+        "pos_4379": {
+          "position": 4379,
+          "distance_from_tip": 4380,
+          "expected_hashes": 4380,
+          "avg_latency_us": 0.584,
+          "p95_latency_us": 0.351,
+          "p99_latency_us": 9.499,
+          "n_repeats": 30
+        },
+        "pos_6569": {
+          "position": 6569,
+          "distance_from_tip": 2190,
+          "expected_hashes": 2190,
+          "avg_latency_us": 0.74,
+          "p95_latency_us": 0.341,
+          "p99_latency_us": 13.607,
+          "n_repeats": 30
+        },
+        "pos_7883": {
+          "position": 7883,
+          "distance_from_tip": 876,
+          "expected_hashes": 876,
+          "avg_latency_us": 0.553,
+          "p95_latency_us": 0.341,
+          "p99_latency_us": 7.725,
+          "n_repeats": 30
+        },
+        "pos_8671": {
+          "position": 8671,
+          "distance_from_tip": 88,
+          "expected_hashes": 88,
+          "avg_latency_us": 0.736,
+          "p95_latency_us": 0.471,
+          "p99_latency_us": 12.605,
+          "n_repeats": 30
+        }
+      },
+      "comparison": {
+        "pos_0": {
+          "position": 0,
+          "distance_from_tip": 8759,
+          "expected_hashes": 8759,
+          "original_latency_us": 3723.697,
+          "optimized_latency_us": 1.712,
+          "speedup_x": 2175.06
+        },
+        "pos_875": {
+          "position": 875,
+          "distance_from_tip": 7884,
+          "expected_hashes": 7884,
+          "original_latency_us": 3158.737,
+          "optimized_latency_us": 0.632,
+          "speedup_x": 4998.0
+        },
+        "pos_2189": {
+          "position": 2189,
+          "distance_from_tip": 6570,
+          "expected_hashes": 6570,
+          "original_latency_us": 2659.581,
+          "optimized_latency_us": 0.456,
+          "speedup_x": 5832.41
+        },
+        "pos_4379": {
+          "position": 4379,
+          "distance_from_tip": 4380,
+          "expected_hashes": 4380,
+          "original_latency_us": 1737.824,
+          "optimized_latency_us": 0.584,
+          "speedup_x": 2975.73
+        },
+        "pos_6569": {
+          "position": 6569,
+          "distance_from_tip": 2190,
+          "expected_hashes": 2190,
+          "original_latency_us": 845.932,
+          "optimized_latency_us": 0.74,
+          "speedup_x": 1143.15
+        },
+        "pos_7883": {
+          "position": 7883,
+          "distance_from_tip": 876,
+          "expected_hashes": 876,
+          "original_latency_us": 341.285,
+          "optimized_latency_us": 0.553,
+          "speedup_x": 617.15
+        },
+        "pos_8671": {
+          "position": 8671,
+          "distance_from_tip": 88,
+          "expected_hashes": 88,
+          "original_latency_us": 34.351,
+          "optimized_latency_us": 0.736,
+          "speedup_x": 46.67
+        }
+      },
+      "avg_speedup_x": 2541.17,
+      "max_speedup_x": 5832.41,
+      "hot_token_latency_us": 0.396
+    },
+    {
+      "chain_length": 100000,
+      "checkpoint_interval": 100,
+      "window_size": 10,
+      "num_checkpoints": 1000,
+      "checkpoint_storage_kb": 31.25,
+      "orig": {
+        "pos_0": {
+          "position": 0,
+          "distance_from_tip": 99999,
+          "expected_hashes": 99999,
+          "avg_latency_us": 41419.376,
+          "p95_latency_us": 44748.034,
+          "p99_latency_us": 56513.099,
+          "n_repeats": 30
+        },
+        "pos_9999": {
+          "position": 9999,
+          "distance_from_tip": 90000,
+          "expected_hashes": 90000,
+          "avg_latency_us": 35634.375,
+          "p95_latency_us": 36864.812,
+          "p99_latency_us": 41334.327,
+          "n_repeats": 30
+        },
+        "pos_24999": {
+          "position": 24999,
+          "distance_from_tip": 75000,
+          "expected_hashes": 75000,
+          "avg_latency_us": 30063.756,
+          "p95_latency_us": 30742.287,
+          "p99_latency_us": 31931.011,
+          "n_repeats": 30
+        },
+        "pos_49999": {
+          "position": 49999,
+          "distance_from_tip": 50000,
+          "expected_hashes": 50000,
+          "avg_latency_us": 20171.222,
+          "p95_latency_us": 22366.8,
+          "p99_latency_us": 22549.387,
+          "n_repeats": 30
+        },
+        "pos_74999": {
+          "position": 74999,
+          "distance_from_tip": 25000,
+          "expected_hashes": 25000,
+          "avg_latency_us": 10148.303,
+          "p95_latency_us": 10621.807,
+          "p99_latency_us": 11055.495,
+          "n_repeats": 30
+        },
+        "pos_89999": {
+          "position": 89999,
+          "distance_from_tip": 10000,
+          "expected_hashes": 10000,
+          "avg_latency_us": 4015.816,
+          "p95_latency_us": 4397.024,
+          "p99_latency_us": 4408.816,
+          "n_repeats": 30
+        },
+        "pos_98999": {
+          "position": 98999,
+          "distance_from_tip": 1000,
+          "expected_hashes": 1000,
+          "avg_latency_us": 393.745,
+          "p95_latency_us": 444.579,
+          "p99_latency_us": 469.037,
+          "n_repeats": 30
+        }
+      },
+      "opt": {
+        "pos_0": {
+          "position": 0,
+          "distance_from_tip": 99999,
+          "expected_hashes": 99999,
+          "avg_latency_us": 1.722,
+          "p95_latency_us": 0.652,
+          "p99_latency_us": 44.838,
+          "n_repeats": 30
+        },
+        "pos_9999": {
+          "position": 9999,
+          "distance_from_tip": 90000,
+          "expected_hashes": 90000,
+          "avg_latency_us": 0.355,
+          "p95_latency_us": 0.461,
+          "p99_latency_us": 3.457,
+          "n_repeats": 30
+        },
+        "pos_24999": {
+          "position": 24999,
+          "distance_from_tip": 75000,
+          "expected_hashes": 75000,
+          "avg_latency_us": 0.342,
+          "p95_latency_us": 0.311,
+          "p99_latency_us": 2.835,
+          "n_repeats": 30
+        },
+        "pos_49999": {
+          "position": 49999,
+          "distance_from_tip": 50000,
+          "expected_hashes": 50000,
+          "avg_latency_us": 0.337,
+          "p95_latency_us": 0.321,
+          "p99_latency_us": 1.994,
+          "n_repeats": 30
+        },
+        "pos_74999": {
+          "position": 74999,
+          "distance_from_tip": 25000,
+          "expected_hashes": 25000,
+          "avg_latency_us": 0.374,
+          "p95_latency_us": 0.35,
+          "p99_latency_us": 2.554,
+          "n_repeats": 30
+        },
+        "pos_89999": {
+          "position": 89999,
+          "distance_from_tip": 10000,
+          "expected_hashes": 10000,
+          "avg_latency_us": 0.371,
+          "p95_latency_us": 0.381,
+          "p99_latency_us": 1.944,
+          "n_repeats": 30
+        },
+        "pos_98999": {
+          "position": 98999,
+          "distance_from_tip": 1000,
+          "expected_hashes": 1000,
+          "avg_latency_us": 0.385,
+          "p95_latency_us": 0.451,
+          "p99_latency_us": 1.864,
+          "n_repeats": 30
+        }
+      },
+      "comparison": {
+        "pos_0": {
+          "position": 0,
+          "distance_from_tip": 99999,
+          "expected_hashes": 99999,
+          "original_latency_us": 41419.376,
+          "optimized_latency_us": 1.722,
+          "speedup_x": 24053.06
+        },
+        "pos_9999": {
+          "position": 9999,
+          "distance_from_tip": 90000,
+          "expected_hashes": 90000,
+          "original_latency_us": 35634.375,
+          "optimized_latency_us": 0.355,
+          "speedup_x": 100378.52
+        },
+        "pos_24999": {
+          "position": 24999,
+          "distance_from_tip": 75000,
+          "expected_hashes": 75000,
+          "original_latency_us": 30063.756,
+          "optimized_latency_us": 0.342,
+          "speedup_x": 87905.72
+        },
+        "pos_49999": {
+          "position": 49999,
+          "distance_from_tip": 50000,
+          "expected_hashes": 50000,
+          "original_latency_us": 20171.222,
+          "optimized_latency_us": 0.337,
+          "speedup_x": 59855.26
+        },
+        "pos_74999": {
+          "position": 74999,
+          "distance_from_tip": 25000,
+          "expected_hashes": 25000,
+          "original_latency_us": 10148.303,
+          "optimized_latency_us": 0.374,
+          "speedup_x": 27134.5
+        },
+        "pos_89999": {
+          "position": 89999,
+          "distance_from_tip": 10000,
+          "expected_hashes": 10000,
+          "original_latency_us": 4015.816,
+          "optimized_latency_us": 0.371,
+          "speedup_x": 10824.3
+        },
+        "pos_98999": {
+          "position": 98999,
+          "distance_from_tip": 1000,
+          "expected_hashes": 1000,
+          "original_latency_us": 393.745,
+          "optimized_latency_us": 0.385,
+          "speedup_x": 1022.71
+        }
+      },
+      "avg_speedup_x": 44453.44,
+      "max_speedup_x": 100378.52,
+      "hot_token_latency_us": 0.424
+    }
+  ]
+}

@@ -1,0 +1,1413 @@
+{
+  "scenario": "Smart City",
+  "num_nodes": 200,
+  "results": [
+    {
+      "node_id": "city_node_0000",
+      "granted": true,
+      "time": 0.06554126739501953,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0001",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0002",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0003",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0004",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0005",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0006",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0007",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0008",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0009",
+      "granted": true,
+      "time": 0.06159234046936035,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0010",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0011",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0012",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0013",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0014",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0015",
+      "granted": true,
+      "time": 0.0631706714630127,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0016",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0017",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0018",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0019",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0020",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0021",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0022",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0023",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0024",
+      "granted": true,
+      "time": 0.06639409065246582,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0025",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0026",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0027",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0028",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0029",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0030",
+      "granted": true,
+      "time": 0.06274628639221191,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0031",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0032",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0033",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0034",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0035",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0036",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0037",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0038",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0039",
+      "granted": true,
+      "time": 0.0630652904510498,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0040",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0041",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0042",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0043",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0044",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0045",
+      "granted": true,
+      "time": 0.06298589706420898,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0046",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0047",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0048",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0049",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0050",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0051",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0052",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0053",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0054",
+      "granted": true,
+      "time": 0.06530594825744629,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0055",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0056",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0057",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0058",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0059",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0060",
+      "granted": true,
+      "time": 0.09938287734985352,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0061",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0062",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0063",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0064",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0065",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0066",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0067",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0068",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0069",
+      "granted": true,
+      "time": 0.06359624862670898,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0070",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0071",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0072",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0073",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0074",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0075",
+      "granted": true,
+      "time": 0.06335163116455078,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0076",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0077",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0078",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0079",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0080",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0081",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0082",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0083",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0084",
+      "granted": true,
+      "time": 0.06742000579833984,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0085",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0086",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0087",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0088",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0089",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0090",
+      "granted": true,
+      "time": 0.06364679336547852,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0091",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0092",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0093",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0094",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0095",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0096",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0097",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0098",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0099",
+      "granted": true,
+      "time": 0.06317853927612305,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0100",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0101",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0102",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0103",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0104",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0105",
+      "granted": true,
+      "time": 0.06419897079467773,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0106",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0107",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0108",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0109",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0110",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0111",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0112",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0113",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0114",
+      "granted": true,
+      "time": 0.06337308883666992,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0115",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0116",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0117",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0118",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0119",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0120",
+      "granted": true,
+      "time": 0.06257224082946777,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0121",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0122",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0123",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0124",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0125",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0126",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0127",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0128",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0129",
+      "granted": true,
+      "time": 0.06379437446594238,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0130",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0131",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0132",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0133",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0134",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0135",
+      "granted": true,
+      "time": 0.06508493423461914,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0136",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0137",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0138",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0139",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0140",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0141",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0142",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0143",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0144",
+      "granted": true,
+      "time": 0.06510686874389648,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0145",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0146",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0147",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0148",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0149",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0150",
+      "granted": true,
+      "time": 0.06260800361633301,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0151",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0152",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0153",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0154",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0155",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0156",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0157",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0158",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0159",
+      "granted": true,
+      "time": 0.06443452835083008,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0160",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0161",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0162",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0163",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0164",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0165",
+      "granted": true,
+      "time": 0.06494331359863281,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0166",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0167",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0168",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0169",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0170",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0171",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0172",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0173",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0174",
+      "granted": true,
+      "time": 0.06311941146850586,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0175",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0176",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0177",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0178",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0179",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0180",
+      "granted": true,
+      "time": 0.0658414363861084,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0181",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0182",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0183",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0184",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0185",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0186",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0187",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0188",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0189",
+      "granted": true,
+      "time": 0.0652463436126709,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0190",
+      "granted": false,
+      "time": 0,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0191",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0192",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0193",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0194",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    },
+    {
+      "node_id": "city_node_0195",
+      "granted": true,
+      "time": 0.06626296043395996,
+      "type": "traffic_light",
+      "district": "downtown"
+    },
+    {
+      "node_id": "city_node_0196",
+      "granted": false,
+      "time": 0,
+      "type": "camera",
+      "district": "suburb_a"
+    },
+    {
+      "node_id": "city_node_0197",
+      "granted": false,
+      "time": 0,
+      "type": "sensor",
+      "district": "suburb_b"
+    },
+    {
+      "node_id": "city_node_0198",
+      "granted": false,
+      "time": 0,
+      "type": "display",
+      "district": "industrial_park"
+    },
+    {
+      "node_id": "city_node_0199",
+      "granted": false,
+      "time": 0,
+      "type": "gateway",
+      "district": "airport"
+    }
+  ],
+  "summary": {
+    "encrypt_time": 0.06449103355407715,
+    "total_nodes": 200,
+    "success_count": 27,
+    "success_rate": 0.135,
+    "avg_decrypt_time": 0.06548016159622758
+  }
+}

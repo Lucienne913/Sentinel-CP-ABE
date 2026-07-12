@@ -1,0 +1,11 @@
+{
+  "dataset": "UNSW-NB15",
+  "paper_section": "Section VII: Real-World Validation",
+  "description": "Network traffic features mapped to ABE attribute space",
+  "data_source": "real_UNSW-NB15_dataset",
+  "total_records_processed": 5000,
+  "unique_abe_attributes": 27,
+  "attack_categories": 7,
+  "timing_experiments": "unsw_nb15_timing_results.json",
+  "generated_at": "2026-06-02T14:34:10.731582"
+}

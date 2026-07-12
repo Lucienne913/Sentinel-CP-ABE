@@ -1,0 +1,22 @@
+{
+  "Level 1 (Minimal)": {
+    "num_attributes": 1,
+    "policy_complexity": 1,
+    "decrypt_time": 0.03542733192443848
+  },
+  "Level 2": {
+    "num_attributes": 2,
+    "policy_complexity": 2,
+    "decrypt_time": 0.0583653450012207
+  },
+  "Level 3": {
+    "num_attributes": 3,
+    "policy_complexity": 3,
+    "decrypt_time": 0.08785295486450195
+  },
+  "Level 4 (Full)": {
+    "num_attributes": 4,
+    "policy_complexity": 5,
+    "decrypt_time": 0.1321399211883545
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "scenario": "Healthcare",
+  "num_patients": 50,
+  "results": [
+    {
+      "patient_id": "patient_0000",
+      "granted": false,
+      "time": 0,
+      "department": "cardiology",
+      "role": "doctor"
+    },
+    {
+      "patient_id": "patient_0001",
+      "granted": true,
+      "time": 0.06436514854431152,
+      "department": "neurology",
+      "role": "nurse"
+    },
+    {
+      "patient_id": "patient_0002",
+      "granted": false,
+      "time": 0,
+      "department": "pediatrics",
+      "role": "researcher"
+    },
+    {
+      "patient_id": "patient_0003",
+      "granted": false,
+      "time": 0,
+      "department": "radiology",
+      "role": "admin"
+    },
+    {
+      "patient_id": "patient_0004",
+      "granted": false,
+      "time": 0,
+      "department": "emergency",
+      "role": "patient"
+    },
+    {
+      "patient_id": "patient_0005",
+      "granted": false,
+      "time": 0,
+      "department": "cardiology",
+      "role": "doctor"
+    },
+    {
+      "patient_id": "patient_0006",
+      "granted": false,
+      "time": 0,
+      "department": "neurology",
+      "role": "nurse"
+    },
+    {
+      "patient_id": "patient_0007",
+      "granted": false,
+      "time": 0,
+      "department": "pediatrics",
+      "role": "researcher"
+    },
+    {
+      "patient_id": "patient_0008",
+      "granted": false,
+      "time": 0,
+      "department": "radiology",
+      "role": "admin"
+    },
+    {
+      "patient_id": "patient_0009",
+      "granted": false,
+      "time": 0,
+      "department": "emergency",
+      "role": "patient"
+    },
+    {
+      "patient_id": "patient_0010",
+      "granted": true,
+      "time": 0.06421399116516113,
+      "department": "cardiology",
+      "role": "doctor"
+    },
+    {
+      "patient_id": "patient_0011",
+      "granted": false,
+      "time": 0,
+      "department": "neurology",
+      "role": "nurse"
+    },
+    {
+      "patient_id": "patient_0012",
+      "granted": false,
+      "time": 0,
+      "department": "pediatrics",
+      "role": "researcher"
+    },
+    {
+      "patient_id": "patient_0013",
+      "granted": false,
+      "time": 0,
+      "department": "radiology",
+      "role": "admin"
+    },
+    {
+      "patient_id": "patient_0014",
+      "granted": false,
+      "time": 0,
+      "department": "emergency",
+      "role": "patient"
+    },
+    {
+      "patient_id": "patient_0015",
+      "granted": false,
+      "time": 0,
+      "department": "cardiology",
+      "role": "doctor"
+    },
+    {
+      "patient_id": "patient_0016",
+      "granted": true,
+      "time": 0.06476497650146484,
+      "department": "neurology",
+      "role": "nurse"
+    },
+    {
+      "patient_id": "patient_0017",
+      "granted": false,
+      "time": 0,
+      "department": "pediatrics",
+      "role": "researcher"
+    },
+    {
+      "patient_id": "patient_0018",
+      "granted": false,
+      "time": 0,
+      "department": "radiology",
+      "role": "admin"
+    },
+    {
+      "patient_id": "patient_0019",
+      "granted": false,
+      "time": 0,
+      "department": "emergency",
+      "role": "patient"
+    },
+    {
+      "patient_id": "patient_0020",
+      "granted": false,
+      "time": 0,
+      "department": "cardiology",
+      "role": "doctor"
+    },
+    {
+      "patient_id": "patient_0021",
+      "granted": false,
+      "time": 0,
+      "department": "neurology",
+      "role": "nurse"
+    },
+    {
+      "patient_id": "patient_0022",
+      "granted": false,
+      "time": 0,
+      "department": "pediatrics",
+      "role": "researcher"
+    },
+    {
+      "patient_id": "patient_0023",
+      "granted": false,
+      "time": 0,
+      "department": "radiology",
+      "role": "admin"
+    },
+    {
+      "patient_id": "patient_0024",
+      "granted": false,
+      "time": 0,
+      "department": "emergency",
+      "role": "patient"
+    },
+    {
+      "patient_id": "patient_0025",
+      "granted": true,
+      "time": 0.06294655799865723,
+      "department": "cardiology",
+      "role": "doctor"
+    },
+    {
+      "patient_id": "patient_0026",
+      "granted": false,
+      "time": 0,
+      "department": "neurology",
+      "role": "nurse"
+    },
+    {
+      "patient_id": "patient_0027",
+      "granted": false,
+      "time": 0,
+      "department": "pediatrics",
+      "role": "researcher"
+    },
+    {
+      "patient_id": "patient_0028",
+      "granted": false,
+      "time": 0,
+      "department": "radiology",
+      "role": "admin"
+    },
+    {
+      "patient_id": "patient_0029",
+      "granted": false,
+      "time": 0,
+      "department": "emergency",
+      "role": "patient"
+    },
+    {
+      "patient_id": "patient_0030",
+      "granted": false,
+      "time": 0,
+      "department": "cardiology",
+      "role": "doctor"
+    },
+    {
+      "patient_id": "patient_0031",
+      "granted": true,
+      "time": 0.06337618827819824,
+      "department": "neurology",
+      "role": "nurse"
+    },
+    {
+      "patient_id": "patient_0032",
+      "granted": false,
+      "time": 0,
+      "department": "pediatrics",
+      "role": "researcher"
+    },
+    {
+      "patient_id": "patient_0033",
+      "granted": false,
+      "time": 0,
+      "department": "radiology",
+      "role": "admin"
+    },
+    {
+      "patient_id": "patient_0034",
+      "granted": false,
+      "time": 0,
+      "department": "emergency",
+      "role": "patient"
+    },
+    {
+      "patient_id": "patient_0035",
+      "granted": false,
+      "time": 0,
+      "department": "cardiology",
+      "role": "doctor"
+    },
+    {
+      "patient_id": "patient_0036",
+      "granted": false,
+      "time": 0,
+      "department": "neurology",
+      "role": "nurse"
+    },
+    {
+      "patient_id": "patient_0037",
+      "granted": false,
+      "time": 0,
+      "department": "pediatrics",
+      "role": "researcher"
+    },
+    {
+      "patient_id": "patient_0038",
+      "granted": false,
+      "time": 0,
+      "department": "radiology",
+      "role": "admin"
+    },
+    {
+      "patient_id": "patient_0039",
+      "granted": false,
+      "time": 0,
+      "department": "emergency",
+      "role": "patient"
+    },
+    {
+      "patient_id": "patient_0040",
+      "granted": true,
+      "time": 0.06313776969909668,
+      "department": "cardiology",
+      "role": "doctor"
+    },
+    {
+      "patient_id": "patient_0041",
+      "granted": false,
+      "time": 0,
+      "department": "neurology",
+      "role": "nurse"
+    },
+    {
+      "patient_id": "patient_0042",
+      "granted": false,
+      "time": 0,
+      "department": "pediatrics",
+      "role": "researcher"
+    },
+    {
+      "patient_id": "patient_0043",
+      "granted": false,
+      "time": 0,
+      "department": "radiology",
+      "role": "admin"
+    },
+    {
+      "patient_id": "patient_0044",
+      "granted": false,
+      "time": 0,
+      "department": "emergency",
+      "role": "patient"
+    },
+    {
+      "patient_id": "patient_0045",
+      "granted": false,
+      "time": 0,
+      "department": "cardiology",
+      "role": "doctor"
+    },
+    {
+      "patient_id": "patient_0046",
+      "granted": true,
+      "time": 0.06263542175292969,
+      "department": "neurology",
+      "role": "nurse"
+    },
+    {
+      "patient_id": "patient_0047",
+      "granted": false,
+      "time": 0,
+      "department": "pediatrics",
+      "role": "researcher"
+    },
+    {
+      "patient_id": "patient_0048",
+      "granted": false,
+      "time": 0,
+      "department": "radiology",
+      "role": "admin"
+    },
+    {
+      "patient_id": "patient_0049",
+      "granted": false,
+      "time": 0,
+      "department": "emergency",
+      "role": "patient"
+    }
+  ],
+  "summary": {
+    "encrypt_time": 0.06531429290771484,
+    "total_patients": 50,
+    "success_count": 7,
+    "success_rate": 0.14,
+    "avg_decrypt_time": 0.06363429341997419
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "10": {
+    "keygen": {
+      "mean_ms": 159.56,
+      "std_ms": 3.89,
+      "min_ms": 157.0,
+      "max_ms": 176.09,
+      "p95_ms": 170.15,
+      "num_repeats": 100
+    },
+    "encrypt": {
+      "mean_ms": 152.75,
+      "std_ms": 3.09,
+      "min_ms": 150.77,
+      "max_ms": 169.03,
+      "p95_ms": 161.7,
+      "num_repeats": 100
+    },
+    "decrypt": {
+      "mean_ms": 241.37,
+      "std_ms": 4.62,
+      "min_ms": 238.23,
+      "max_ms": 260.41,
+      "p95_ms": 256.7,
+      "num_repeats": 100
+    }
+  },
+  "50": {
+    "keygen": {
+      "mean_ms": 737.67,
+      "std_ms": 11.6,
+      "min_ms": 729.91,
+      "max_ms": 803.47,
+      "p95_ms": 764.44,
+      "num_repeats": 100
+    },
+    "encrypt": {
+      "mean_ms": 152.51,
+      "std_ms": 2.43,
+      "min_ms": 149.98,
+      "max_ms": 164.24,
+      "p95_ms": 159.8,
+      "num_repeats": 100
+    },
+    "decrypt": {
+      "mean_ms": 240.84,
+      "std_ms": 3.23,
+      "min_ms": 238.53,
+      "max_ms": 255.34,
+      "p95_ms": 250.38,
+      "num_repeats": 100
+    }
+  },
+  "100": {
+    "keygen": {
+      "mean_ms": 1460.79,
+      "std_ms": 22.71,
+      "min_ms": 1443.79,
+      "max_ms": 1544.81,
+      "p95_ms": 1516.62,
+      "num_repeats": 100
+    },
+    "encrypt": {
+      "mean_ms": 152.06,
+      "std_ms": 3.42,
+      "min_ms": 149.53,
+      "max_ms": 162.81,
+      "p95_ms": 160.82,
+      "num_repeats": 100
+    },
+    "decrypt": {
+      "mean_ms": 241.14,
+      "std_ms": 4.61,
+      "min_ms": 237.89,
+      "max_ms": 259.69,
+      "p95_ms": 254.28,
+      "num_repeats": 100
+    }
+  },
+  "200": {
+    "keygen": {
+      "mean_ms": 2896.83,
+      "std_ms": 42.18,
+      "min_ms": 2872.79,
+      "max_ms": 3251.81,
+      "p95_ms": 2944.38,
+      "num_repeats": 100
+    },
+    "encrypt": {
+      "mean_ms": 151.01,
+      "std_ms": 2.13,
+      "min_ms": 147.93,
+      "max_ms": 160.28,
+      "p95_ms": 154.96,
+      "num_repeats": 100
+    },
+    "decrypt": {
+      "mean_ms": 239.87,
+      "std_ms": 2.82,
+      "min_ms": 236.65,
+      "max_ms": 254.78,
+      "p95_ms": 246.55,
+      "num_repeats": 100
+    }
+  },
+  "500": {
+    "keygen": {
+      "mean_ms": 7209.4,
+      "std_ms": 63.23,
+      "min_ms": 7157.19,
+      "max_ms": 7790.1,
+      "p95_ms": 7259.67,
+      "num_repeats": 100
+    },
+    "encrypt": {
+      "mean_ms": 150.98,
+      "std_ms": 2.24,
+      "min_ms": 149.54,
+      "max_ms": 163.28,
+      "p95_ms": 156.35,
+      "num_repeats": 100
+    },
+    "decrypt": {
+      "mean_ms": 240.1,
+      "std_ms": 3.23,
+      "min_ms": 237.96,
+      "max_ms": 255.74,
+      "p95_ms": 248.41,
+      "num_repeats": 100
+    }
+  },
+  "1000": {
+    "keygen": {
+      "mean_ms": 14469.09,
+      "std_ms": 204.71,
+      "min_ms": 14355.0,
+      "max_ms": 15310.85,
+      "p95_ms": 15310.85,
+      "num_repeats": 20
+    },
+    "encrypt": {
+      "mean_ms": 151.82,
+      "std_ms": 3.0,
+      "min_ms": 150.12,
+      "max_ms": 160.8,
+      "p95_ms": 160.8,
+      "num_repeats": 20
+    },
+    "decrypt": {
+      "mean_ms": 242.29,
+      "std_ms": 7.84,
+      "min_ms": 238.84,
+      "max_ms": 274.35,
+      "p95_ms": 274.35,
+      "num_repeats": 20
+    }
+  },
+  "5000": {
+    "keygen": {
+      "mean_ms": 81301.34,
+      "std_ms": 649.67,
+      "min_ms": 79501.5,
+      "max_ms": 81746.46,
+      "p95_ms": 81746.46,
+      "num_repeats": 10
+    },
+    "encrypt": {
+      "mean_ms": 170.01,
+      "std_ms": 1.13,
+      "min_ms": 169.03,
+      "max_ms": 172.18,
+      "p95_ms": 172.18,
+      "num_repeats": 10
+    },
+    "decrypt": {
+      "mean_ms": 239.83,
+      "std_ms": 0.47,
+      "min_ms": 239.23,
+      "max_ms": 240.65,
+      "p95_ms": 240.65,
+      "num_repeats": 10
+    }
+  },
+  "10000": {
+    "keygen": {
+      "mean_ms": 163138.25,
+      "std_ms": 177.51,
+      "min_ms": 162905.29,
+      "max_ms": 163323.99,
+      "p95_ms": 163323.99,
+      "num_repeats": 5
+    },
+    "encrypt": {
+      "mean_ms": 170.14,
+      "std_ms": 1.37,
+      "min_ms": 169.09,
+      "max_ms": 172.54,
+      "p95_ms": 172.54,
+      "num_repeats": 5
+    },
+    "decrypt": {
+      "mean_ms": 240.56,
+      "std_ms": 1.07,
+      "min_ms": 239.32,
+      "max_ms": 241.86,
+      "p95_ms": 241.86,
+      "num_repeats": 5
+    }
+  }
+}

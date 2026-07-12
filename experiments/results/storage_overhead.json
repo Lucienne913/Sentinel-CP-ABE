@@ -1,0 +1,34 @@
+[
+  {
+    "n_attrs": 10,
+    "sk_size_bytes": 3916,
+    "sk_size_kb": 3.82,
+    "ct_size_bytes": 528,
+    "ct_size_kb": 0.52,
+    "sk_per_attr_bytes": 392
+  },
+  {
+    "n_attrs": 20,
+    "sk_size_bytes": 7476,
+    "sk_size_kb": 7.3,
+    "ct_size_bytes": 528,
+    "ct_size_kb": 0.52,
+    "sk_per_attr_bytes": 374
+  },
+  {
+    "n_attrs": 50,
+    "sk_size_bytes": 18156,
+    "sk_size_kb": 17.73,
+    "ct_size_bytes": 528,
+    "ct_size_kb": 0.52,
+    "sk_per_attr_bytes": 363
+  },
+  {
+    "n_attrs": 100,
+    "sk_size_bytes": 35956,
+    "sk_size_kb": 35.11,
+    "ct_size_bytes": 528,
+    "ct_size_kb": 0.52,
+    "sk_per_attr_bytes": 360
+  }
+]

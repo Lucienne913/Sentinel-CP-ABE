@@ -1,0 +1,62 @@
+{
+  "attrs_3": {
+    "num_attributes": 3,
+    "num_samples": 100,
+    "success_count": 100,
+    "keygen_mean_ms": 103.376,
+    "encrypt_mean_ms": 66.027,
+    "decrypt_mean_ms": 101.215,
+    "keygen_p95_ms": 140.093,
+    "encrypt_p95_ms": 89.438,
+    "decrypt_p95_ms": 139.787,
+    "decrypt_success_rate": 100.0
+  },
+  "attrs_5": {
+    "num_attributes": 5,
+    "num_samples": 100,
+    "success_count": 100,
+    "keygen_mean_ms": 162.928,
+    "encrypt_mean_ms": 107.434,
+    "decrypt_mean_ms": 169.949,
+    "keygen_p95_ms": 216.973,
+    "encrypt_p95_ms": 143.811,
+    "decrypt_p95_ms": 237.371,
+    "decrypt_success_rate": 100.0
+  },
+  "attrs_7": {
+    "num_attributes": 7,
+    "num_samples": 100,
+    "success_count": 100,
+    "keygen_mean_ms": 185.936,
+    "encrypt_mean_ms": 124.815,
+    "decrypt_mean_ms": 192.497,
+    "keygen_p95_ms": 227.518,
+    "encrypt_p95_ms": 165.927,
+    "decrypt_p95_ms": 242.114,
+    "decrypt_success_rate": 100.0
+  },
+  "attrs_10": {
+    "num_attributes": 10,
+    "num_samples": 100,
+    "success_count": 100,
+    "keygen_mean_ms": 185.154,
+    "encrypt_mean_ms": 120.029,
+    "decrypt_mean_ms": 188.119,
+    "keygen_p95_ms": 233.958,
+    "encrypt_p95_ms": 157.222,
+    "decrypt_p95_ms": 228.759,
+    "decrypt_success_rate": 100.0
+  },
+  "attrs_15": {
+    "num_attributes": 15,
+    "num_samples": 100,
+    "success_count": 100,
+    "keygen_mean_ms": 181.732,
+    "encrypt_mean_ms": 119.834,
+    "decrypt_mean_ms": 185.424,
+    "keygen_p95_ms": 245.076,
+    "encrypt_p95_ms": 159.677,
+    "decrypt_p95_ms": 252.923,
+    "decrypt_success_rate": 100.0
+  }
+}

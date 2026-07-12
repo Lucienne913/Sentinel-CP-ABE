@@ -1,0 +1,62 @@
+{
+  "anomaly_detection": {
+    "mean_ms": 0.19,
+    "std_ms": 0.07,
+    "min_ms": 0.14,
+    "max_ms": 0.42,
+    "samples": 50
+  },
+  "gradcam": {
+    "mean_ms": 2.04,
+    "std_ms": 6.73,
+    "min_ms": 0.0,
+    "max_ms": 47.33,
+    "samples": 50
+  },
+  "policy_compute": {
+    "mean_ms": 0.0,
+    "std_ms": 0.0,
+    "min_ms": 0.0,
+    "max_ms": 0.03,
+    "samples": 50
+  },
+  "revocation": {
+    "mean_ms": 0.0,
+    "std_ms": 0.0,
+    "min_ms": 0.0,
+    "max_ms": 0.01,
+    "samples": 50
+  },
+  "re_encryption": {
+    "mean_ms": 2.58,
+    "std_ms": 3.65,
+    "min_ms": 0.0,
+    "max_ms": 9.46,
+    "samples": 50
+  },
+  "re_keying": {
+    "mean_ms": 55.3,
+    "std_ms": 2.81,
+    "min_ms": 52.13,
+    "max_ms": 68.58,
+    "samples": 50
+  },
+  "total_without_rekey": {
+    "mean_ms": 4.81,
+    "std_ms": 8.99,
+    "min_ms": 0.14,
+    "max_ms": 55.83,
+    "samples": 50
+  },
+  "total": {
+    "mean_ms": 60.11,
+    "std_ms": 9.43,
+    "min_ms": 52.33,
+    "max_ms": 111.08,
+    "samples": 50
+  },
+  "trigger_rate_pct": 34.0,
+  "iterations": 50,
+  "affected_users": 10,
+  "curve": "SS512"
+}

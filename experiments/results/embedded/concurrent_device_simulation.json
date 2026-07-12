@@ -1,0 +1,116 @@
+{
+  "summary": {
+    "timestamp": "2026-06-02T10:58:09.896032",
+    "num_devices": 10,
+    "total_requests": 30,
+    "successful_requests": 30,
+    "success_rate": 1.0,
+    "wall_time_s": 1.09,
+    "overall_avg_latency_ms": 164.53,
+    "memory_before_mb": 39.48,
+    "memory_after_mb": 41.64,
+    "memory_delta_mb": 2.16
+  },
+  "devices": [
+    {
+      "device_id": "sensor_001",
+      "num_attrs": 5,
+      "total_requests": 3,
+      "successful_requests": 3,
+      "success_rate": 1.0,
+      "avg_latency_ms": 94.11,
+      "min_latency_ms": 40.78,
+      "max_latency_ms": 159.34
+    },
+    {
+      "device_id": "sensor_002",
+      "num_attrs": 10,
+      "total_requests": 3,
+      "successful_requests": 3,
+      "success_rate": 1.0,
+      "avg_latency_ms": 142.81,
+      "min_latency_ms": 102.26,
+      "max_latency_ms": 188.45
+    },
+    {
+      "device_id": "sensor_003",
+      "num_attrs": 20,
+      "total_requests": 3,
+      "successful_requests": 3,
+      "success_rate": 1.0,
+      "avg_latency_ms": 238.48,
+      "min_latency_ms": 159.15,
+      "max_latency_ms": 289.19
+    },
+    {
+      "device_id": "actuator_001",
+      "num_attrs": 5,
+      "total_requests": 3,
+      "successful_requests": 3,
+      "success_rate": 1.0,
+      "avg_latency_ms": 99.05,
+      "min_latency_ms": 68.64,
+      "max_latency_ms": 121.37
+    },
+    {
+      "device_id": "actuator_002",
+      "num_attrs": 10,
+      "total_requests": 3,
+      "successful_requests": 3,
+      "success_rate": 1.0,
+      "avg_latency_ms": 181.41,
+      "min_latency_ms": 93.32,
+      "max_latency_ms": 245.99
+    },
+    {
+      "device_id": "gateway_001",
+      "num_attrs": 15,
+      "total_requests": 3,
+      "successful_requests": 3,
+      "success_rate": 1.0,
+      "avg_latency_ms": 207.49,
+      "min_latency_ms": 172.85,
+      "max_latency_ms": 238.51
+    },
+    {
+      "device_id": "gateway_002",
+      "num_attrs": 20,
+      "total_requests": 3,
+      "successful_requests": 3,
+      "success_rate": 1.0,
+      "avg_latency_ms": 207.77,
+      "min_latency_ms": 86.82,
+      "max_latency_ms": 380.02
+    },
+    {
+      "device_id": "controller_001",
+      "num_attrs": 10,
+      "total_requests": 3,
+      "successful_requests": 3,
+      "success_rate": 1.0,
+      "avg_latency_ms": 207.56,
+      "min_latency_ms": 129.2,
+      "max_latency_ms": 315.27
+    },
+    {
+      "device_id": "controller_002",
+      "num_attrs": 15,
+      "total_requests": 3,
+      "successful_requests": 3,
+      "success_rate": 1.0,
+      "avg_latency_ms": 172.87,
+      "min_latency_ms": 58.64,
+      "max_latency_ms": 264.21
+    },
+    {
+      "device_id": "edge_001",
+      "num_attrs": 5,
+      "total_requests": 3,
+      "successful_requests": 3,
+      "success_rate": 1.0,
+      "avg_latency_ms": 93.78,
+      "min_latency_ms": 59.5,
+      "max_latency_ms": 128.64
+    }
+  ]
+}

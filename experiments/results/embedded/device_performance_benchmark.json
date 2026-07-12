@@ -1,0 +1,29 @@
+{
+  "device_info": {
+    "device_type": "linux",
+    "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.41",
+    "python_version": "3.9.25",
+    "cpu_count": 32,
+    "memory_total_gb": 7.281261444091797,
+    "memory_available_gb": 6.295490264892578,
+    "disk_total_gb": 1006.853931427002,
+    "disk_available_gb": 893.6107025146484
+  },
+  "performance": {
+    "10": {
+      "keygen_time": 0.0286,
+      "encrypt_time": 0.0075,
+      "decrypt_time": 0.0064
+    },
+    "50": {
+      "keygen_time": 0.1158,
+      "encrypt_time": 0.0069,
+      "decrypt_time": 0.0058
+    },
+    "100": {
+      "keygen_time": 0.2349,
+      "encrypt_time": 0.0083,
+      "decrypt_time": 0.0084
+    }
+  }
+}

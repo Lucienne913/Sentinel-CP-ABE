@@ -1,0 +1,102 @@
+{
+  "timestamp": "2026-07-11T08:44:55",
+  "curve": "SS512",
+  "iterations_per_config": 100,
+  "configs": [
+    {
+      "n": 3,
+      "t": 2,
+      "split": {
+        "avg_ms": 0.0177,
+        "min_ms": 0.0162,
+        "max_ms": 0.0455,
+        "p95_ms": 0.0251,
+        "std_ms": 0.004
+      },
+      "reconstruct": {
+        "avg_ms": 0.0059,
+        "min_ms": 0.0048,
+        "max_ms": 0.0352,
+        "p95_ms": 0.0093,
+        "std_ms": 0.0038
+      },
+      "total_avg_ms": 0.0236
+    },
+    {
+      "n": 5,
+      "t": 3,
+      "split": {
+        "avg_ms": 0.0334,
+        "min_ms": 0.0316,
+        "max_ms": 0.0677,
+        "p95_ms": 0.0442,
+        "std_ms": 0.0053
+      },
+      "reconstruct": {
+        "avg_ms": 0.0099,
+        "min_ms": 0.0088,
+        "max_ms": 0.0499,
+        "p95_ms": 0.0127,
+        "std_ms": 0.0043
+      },
+      "total_avg_ms": 0.0433
+    },
+    {
+      "n": 7,
+      "t": 4,
+      "split": {
+        "avg_ms": 0.055,
+        "min_ms": 0.0484,
+        "max_ms": 0.3551,
+        "p95_ms": 0.0726,
+        "std_ms": 0.0311
+      },
+      "reconstruct": {
+        "avg_ms": 0.0162,
+        "min_ms": 0.0146,
+        "max_ms": 0.0396,
+        "p95_ms": 0.0222,
+        "std_ms": 0.0031
+      },
+      "total_avg_ms": 0.0712
+    },
+    {
+      "n": 10,
+      "t": 5,
+      "split": {
+        "avg_ms": 0.0704,
+        "min_ms": 0.0663,
+        "max_ms": 0.1205,
+        "p95_ms": 0.0989,
+        "std_ms": 0.0087
+      },
+      "reconstruct": {
+        "avg_ms": 0.0238,
+        "min_ms": 0.0216,
+        "max_ms": 0.0419,
+        "p95_ms": 0.0372,
+        "std_ms": 0.0041
+      },
+      "total_avg_ms": 0.0942
+    },
+    {
+      "n": 10,
+      "t": 7,
+      "split": {
+        "avg_ms": 0.1055,
+        "min_ms": 0.0951,
+        "max_ms": 0.2226,
+        "p95_ms": 0.1373,
+        "std_ms": 0.0183
+      },
+      "reconstruct": {
+        "avg_ms": 0.0437,
+        "min_ms": 0.0389,
+        "max_ms": 0.0976,
+        "p95_ms": 0.0573,
+        "std_ms": 0.0083
+      },
+      "total_avg_ms": 0.1493
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "10": {
+    "encrypt": {
+      "mean_ms": 158.61,
+      "std_ms": 8.75,
+      "min_ms": 153.84,
+      "max_ms": 192.47,
+      "p95_ms": 192.47,
+      "num_repeats": 20
+    },
+    "decrypt": {
+      "mean_ms": 247.96,
+      "std_ms": 6.27,
+      "min_ms": 242.2,
+      "max_ms": 264.45,
+      "p95_ms": 264.45,
+      "num_repeats": 20
+    }
+  },
+  "50": {
+    "encrypt": {
+      "mean_ms": 747.05,
+      "std_ms": 17.56,
+      "min_ms": 734.82,
+      "max_ms": 815.42,
+      "p95_ms": 815.42,
+      "num_repeats": 20
+    },
+    "decrypt": {
+      "mean_ms": 1180.69,
+      "std_ms": 9.29,
+      "min_ms": 1167.87,
+      "max_ms": 1206.74,
+      "p95_ms": 1206.74,
+      "num_repeats": 20
+    }
+  },
+  "100": {
+    "encrypt": {
+      "mean_ms": 1476.6,
+      "std_ms": 22.99,
+      "min_ms": 1461.41,
+      "max_ms": 1568.19,
+      "p95_ms": 1568.19,
+      "num_repeats": 20
+    },
+    "decrypt": {
+      "mean_ms": 2347.41,
+      "std_ms": 12.19,
+      "min_ms": 2328.48,
+      "max_ms": 2373.07,
+      "p95_ms": 2373.07,
+      "num_repeats": 20
+    }
+  },
+  "500": {
+    "encrypt": {
+      "mean_ms": 7399.54,
+      "std_ms": 183.0,
+      "min_ms": 7287.47,
+      "max_ms": 8145.77,
+      "p95_ms": 8145.77,
+      "num_repeats": 20
+    },
+    "decrypt": {
+      "mean_ms": 11734.85,
+      "std_ms": 73.03,
+      "min_ms": 11667.96,
+      "max_ms": 11918.31,
+      "p95_ms": 11918.31,
+      "num_repeats": 20
+    }
+  },
+  "1000": {
+    "encrypt": {
+      "mean_ms": 14786.3,
+      "std_ms": 255.89,
+      "min_ms": 14611.07,
+      "max_ms": 15832.9,
+      "p95_ms": 15832.9,
+      "num_repeats": 20
+    },
+    "decrypt": {
+      "mean_ms": 23604.15,
+      "std_ms": 88.03,
+      "min_ms": 23449.97,
+      "max_ms": 23829.23,
+      "p95_ms": 23829.23,
+      "num_repeats": 20
+    }
+  }
+}

@@ -115,7 +115,7 @@ However, connecting CP-ABE to practical Digital Twins. Pipelines have a serious 
 
 The primary contributions of Sentinel-CP-ABE are summarized as follows:
 
-(1) \textbf{The hash-chain time token mechanism} that directly embeds
+(1) The hash-chain time token mechanism that directly embeds
 temporal predicates into the LSSS access matrix, transforming
 time from an external constraint to a policy dimension. SHA-256 provides
 forward secrecy protection against compromised tokens---even if a token is leaked,
@@ -124,14 +124,14 @@ $O(1)$ verification ($<0.06$\,ms) at all chain lengths ($10^3$--$10^5$)
 with only $2.75$\,KB checkpoints, eliminating the linear cost of the
 naive $O(N)$ approach (speedup up to $5832\times$).
 
-(2) \textbf{The unified construction of THRESHOLD$(k,n)$ gates and version-based revocation}
+(2) The unified construction of THRESHOLD$(k,n)$ gates and version-based revocation
 that supports flexible policies including AND, OR, and $(k,n)$ threshold in
 a single LSSS representation. Instant attribute invalidation via version-tag
 embedding requires only a local version increase on the TA side---no
 re-encryption of existing ciphertexts needed. Unaffected Data remains
 decryptable by non-revoked users.
 
-(3) \textbf{The IND-qCPA-T security model} that establishes a quasi-dynamic
+(3) The IND-qCPA-T security model that establishes a quasi-dynamic
 adversary space: the adversary commits to the target time $t^*$ and
 revocation state $R^*$ before Setup (reflecting deployment-determined
 baselines such as shift schedules and organisational roles), but adaptively
@@ -141,7 +141,7 @@ parameters. This hybrid model bridges selective (temporal) and adaptive
 $\text{Adv} \leq 2\,\text{Adv}_{\text{DBDH}} + (q_H + q_K + q_T)/p$---avoiding the exponential
 selective-to-adaptive loss that makes full adaptive security impractical.
 
-(4) \textbf{The closed-loop security framework} that combines BLS signatures
+(4) The closed-loop security framework that combines BLS signatures
 for ciphertext-to-epoch binding and a conditional diffusion model for
 anomaly-triggered policy tightening. BLS avoids the epoch substitution attack by binding
 each ciphertext to a specific time period. A Diffusion Model
@@ -838,28 +838,41 @@ Zhang24~\cite{Zhang2024_TDSC} & $(1+|S_U|)E_G$ & $(2+2|S_T|)E_G$ & $(2+2|S_T|)E_
 \end{table}
 
 Table~\ref{tab:sota_complexity} compares the theoretical complexity
-of Sentinel-CP-ABE with BSW07~\cite{Bethencourt2007},
-Guo24~\cite{Guo2024}, and Zhang24~\cite{Zhang2024_TDSC}.
+of Sentinel-CP-ABE with the BSW scheme~\cite{Bethencourt2007},
+the pairing-free CP-ABE scheme~\cite{Guo2024}, and the proxy
+re-encryption-based CP-ABE scheme~\cite{Zhang2024_TDSC}.
 Sentinel-CP-ABE KeyGen is $(2+2|S_U|)E_G$ (where $E_G$ is an
-exponentiation in $\mathbb{G}$), approximately $1.7$--$2.0\times$ BSW07's
+exponentiation in $\mathbb{G}$), approximately $1.7$--$2.0\times$ the BSW scheme's
 $(3+|S_U|)E_G$ depending on attribute count. The increase comes from time-binding preparation and
 version-tag computation---acceptable for offline provisioning where
 keys are generated once. Decryption complexity is
 $(3+2|S_T|)E_p + |S_T|E_{G_T}$ ($E_p$ = pairing, $E_{G_T}$ =
-exponentiation in $\mathbb{G}_T$), comparable to BSW07's
+exponentiation in $\mathbb{G}_T$), comparable to the BSW scheme's
 $(2+2|S_T|)E_p + |S_T|E_{G_T}$ while adding temporal predicates,
 THRESHOLD gates, revocation, and AI-driven anomaly detection---four
-features BSW07 does not support.
+features the BSW scheme does not support. This gap is fundamental:
+each added feature addresses a distinct attack surface that prior
+schemes leave unprotected. Temporal predicates prevent out-of-period
+decryption; THRESHOLD gates enable $(k,n)$ trust distribution rather
+than rigid single-attribute policies; version-based revocation
+instantly invalidates compromised keys without re-encrypting existing
+ciphertexts; and AI-driven detection closes the reactive loop from
+policy violation to cryptographic adaptation.
 
-Guo24 achieves sub-millisecond decryption via pairing-free outsourced
-computation, but requires a trusted proxy server. Zhang24 uses
-IBE-to-ABE proxy re-encryption with $2t_e$ overhead for attribute
-revocation, while our version-based approach costs $<$0.1\,ms per
-revocation event (one counter increment). Ciphertext size for
-Sentinel-CP-ABE is $(2+2|S_T|)L_G + L_{G_T}$, comparable to BSW07's
+The pairing-free CP-ABE scheme~\cite{Guo2024} achieves sub-millisecond
+decryption via outsourced computation, but requires a trusted proxy
+server that becomes a single point of failure---a deployment
+constraint incompatible with distributed IIoT environments. The proxy
+re-encryption-based scheme~\cite{Zhang2024_TDSC} uses IBE-to-ABE proxy
+re-encryption with $2t_e$ overhead per revoked attribute (where $t_e$
+is an exponentiation), incurring latency proportional to revocation
+scale, while our version-based approach costs $<$0.1\,ms per revocation
+event (one counter increment, independent of the number of affected
+users). Ciphertext size for
+Sentinel-CP-ABE is $(2+2|S_T|)L_G + L_{G_T}$, comparable to the BSW scheme's
 $(1+2|S_T|)L_G + L_{G_T}$ while eliminating redundant policy encoding. The checkpoint-accelerated hash chain
 reduces verification from $(N-i)E_k$ (linear in chain distance) to
-$O(1)$ ($<0.06$\,ms at $N=10^5$, speedup up to $100\,378\times$).
+$O(1)$ ($<0.06$\,ms at $N=10^5$, speedup up to $100378\times$).
 
 Revocation overhead: incrementing attribute $a_j$'s version costs
 $<$0.1\,ms (local counter operation); the TA does not recompute or
@@ -899,7 +912,7 @@ Diffusion (Ours) & 0.568 & 0.703 & 0.147 & 0.641 & 0.510 & 1.07 \\
 \end{tabular}
 \end{table}
 
-\textbf{Applications:}
+Applications:
 We validate in the four-industry sector.
 scenarios: smart manufacturing, healthcare IoT, smart grid,
 and supply chain to add custom policies encoding time predicates,
@@ -907,9 +920,11 @@ THRESHOLD gates, and revocation rules. Decryption delay is still
 65--69\,ms in all cases, as shown above.
 Bounded variance for a fixed $\|S_T\|$. For UNSW-NB15, 5,000 records
 mapped to 27 security attributes achieve 100\% functional correctness at
-101--193\,ms decryption. The closed-loop response (detection $\rightarrow$
-Grad-CAM $\rightarrow$ policy update $\rightarrow$ re-encryption $\rightarrow$
-re-keying) completes within $60$\,ms for 10 affected users (mean of 50
+101--193\,ms decryption. The closed-loop response covers five sequential
+phases---anomaly detection via diffusion model, Grad-CAM explainability
+analysis, dynamic LSSS policy adaptation, ciphertext re-encryption under
+new policies, and secret-key redistribution for affected users---and
+completes within $60$\,ms for 10 affected users (mean of 50
 iterations, including $\sim$55\,ms for distributed threshold key
 regeneration), with 100\% old-key rejection guaranteed by version-based
 revocation.

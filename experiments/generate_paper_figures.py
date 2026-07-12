@@ -142,7 +142,7 @@ def fig_anomaly_evaluation():
         bars = ax.bar(order, vals, color=model_colors, edgecolor='black',
                       linewidth=0.6, width=0.55)
         ax.set_title(mlabel, fontsize=9, fontweight='bold')
-        ax.set_ylim(0, 1.05)
+        ax.set_ylim(0, 1.15)
         ax.set_ylabel('Score', fontsize=7.5)
         ax.tick_params(axis='x', labelsize=6.5, rotation=20)
         ax.grid(axis='y', alpha=0.25, linestyle=':', linewidth=0.4)

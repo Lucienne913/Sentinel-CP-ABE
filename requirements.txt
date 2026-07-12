@@ -1,0 +1,60 @@
+# Scheme 4: Digital Twin Network Security Framework - Dependency List
+# 
+# Installation Instructions:
+# 1. Python 3.9 recommended (Charm-Crypto compatibility requirement)
+# 2. Charm-Crypto requires PBC library support, recommend using provided Dockerfile
+# 3. PyTorch optional CUDA support, CPU also works (slower)
+#
+# Installation command:
+# pip install -r requirements.txt
+
+# ============================================================
+# Cryptographic Dependencies
+# ============================================================
+# ============================================================
+# Deep Learning Dependencies
+# ============================================================
+# PyTorch: Diffusion model implementation
+# Note:
+# - Linux/Windows: CUDA 11.8+ supported
+# - macOS: CPU only
+torch>=2.1.0
+
+# numpy: Numerical computation
+# Note: numpy 2.0 has breaking changes, lock to <2.0
+numpy>=1.24.0,<2.0.0
+
+# scikit-learn: Evaluation metrics (AUC-ROC, F1, etc.)
+scikit-learn>=1.3.0
+
+# ============================================================
+# Network Dependencies
+# ============================================================
+# requests: HTTP API calls (Eclipse Ditto integration)
+requests>=2.31.0
+
+# ============================================================
+# Type Annotations
+# ============================================================
+typing-extensions>=4.8.0
+
+# ============================================================
+# Test Dependencies
+# ============================================================
+# pytest: Test framework
+pytest>=7.4.0
+
+# pytest-cov: Test coverage
+pytest-cov>=4.1.0
+
+# ============================================================
+# Utility Dependencies
+# ============================================================
+# Logging
+loguru>=0.7.0
+
+# Progress bar (display during training)
+tqdm>=4.66.0
+
+# System resource monitoring (embedded device simulation)
+psutil>=5.9.0

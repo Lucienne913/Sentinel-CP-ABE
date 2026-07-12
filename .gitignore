@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system
+.DS_Store
+Thumbs.db
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Deep learning weights (large binary files - consider Git LFS)
+src/weights/*.pth
+
+# Raw datasets (too large for GitHub)
+data/
+
+# Compiled PDF outputs (reproducible from .tex)
+paper/*.pdf
+
+# Drawio auto-backup files
+paper/figures/.\$*.drawio.bkp
+
+# Temporary files
+*.tmp
+*.temp

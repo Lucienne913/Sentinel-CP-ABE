@@ -1,0 +1,761 @@
+\documentclass[lettersize,journal]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}  % Times New Roman (IEEE standard)
+\usepackage[noadjust]{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{amsthm}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}[theorem]{Definition}
+
+\newcommand{\ie}{\textit{i.e.,}}
+\newcommand{\eg}{\textit{e.g.,}}
+\newcommand{\etal}{\textit{et al.}}
+
+\title{Supplementary Material for Sentinel-CP-ABE: Time-Aware Access Control with Threshold Policies for Digital Twins --- IND-qCPA-T Security Proofs}
+
+\author{
+\IEEEauthorblockN{Xinkai Yang$^{1}$, Yaosheng Chen$^{1}$, and He Xiao$^{1,*}$}
+\IEEEauthorblockA{
+$^{1}$School of Industrial Software\\
+Jiangxi University of Science and Technology,\\
+Nanchang, China}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This supplementary material provides complete security proofs for Sentinel-CP-ABE under the IND-qCPA-T model, including the hybrid argument for quasi-dynamic security, forward security of the hash-chain time token mechanism, revocation soundness, and collusion resistance.
+\end{abstract}
+
+\section{IND-qCPA-T Security Proof}
+\label{sec:indscpat_proof}
+
+The complete proof of Theorem~1 in the main paper is presented below. We prove IND-qCPA-T security, where the adversary commits to the target time $t^*$ and revocation state $R^*$ before Setup (Init-Temporal), and adaptively selects the challenge LSSS structure $\mathbb{M}^*$ after observing the public parameters (Init-Policy). We follow the standard hybrid argument approach, gradually transforming the real security game into a game where the challenge ciphertext is information-theoretically independent of the target bit.
+
+\emph{Reduction validity under quasi-dynamic Init.} As discussed in Section~IV-C of the main paper, the DBDH reduction is independent of when $\mathbb{M}^*$ is committed. The reduction tightness remains $2\,\text{Adv}_{\mathcal{B}}^{\text{DBDH}} + (q_H + q_K + q_T)/p$, unchanged from the selective setting.
+
+\subsection{Hybrid Games}
+
+Let $\mathcal{G}_0$ denote the real IND-qCPA-T security game (with two-phase Init). We define a sequence of hybrid games $\mathcal{G}_1, \mathcal{G}_2, \ldots, \mathcal{G}_6$ such that:
+
+\begin{enumerate}
+    \item $\mathcal{G}_0$: Real game with full challenge ciphertext
+    \item $\mathcal{G}_1$: Replace $e(g,g)^{\alpha s}$ with random element
+    \item $\mathcal{G}_2$: Replace $g^{\beta s}$ with random element
+    \item $\mathcal{G}_3$: Replace all $g^{s_y}$ with random elements
+    \item $\mathcal{G}_4$: Replace all $H(\mathrm{attr}_y \| v_{\mathrm{attr}_y})^{s_y}$ with random elements
+    \item $\mathcal{G}_5$: Replace time-binding factor $b$ with random element
+    \item $\mathcal{G}_6$: Information-theoretically secure game
+\end{enumerate}
+
+\subsubsection{Hybrid $\mathcal{G}_0 \rightarrow \mathcal{G}_1$}
+
+In $\mathcal{G}_1$, the challenger replaces $e(g,g)^{\alpha s}$ with a random element $R_0 \in_R \mathbb{G}_T$ in the challenge ciphertext. The difference between $\mathcal{G}_0$ and $\mathcal{G}_1$ is negligible under the DBDH assumption.
+
+\begin{lemma}
+\label{lem:g0_g1}
+$\text{Adv}_{\mathcal{A}}^{\mathcal{G}_0} - \text{Adv}_{\mathcal{A}}^{\mathcal{G}_1} \leq \text{Adv}_{\mathcal{B}}^{\text{DBDH}}$.
+\end{lemma}
+
+\begin{proof}
+Let $\mathcal{B}$ be a DBDH adversary given $(g, g^a, g^b, g^c, T)$ where $T = e(g,g)^{abc}$ or $T \in_R \mathbb{G}_T$. $\mathcal{B}$ simulates $\mathcal{G}_0$ or $\mathcal{G}_1$ as follows:
+
+\begin{enumerate}
+    \item \textbf{Setup}: $\mathcal{B}$ sets $\alpha = a$, $\beta = b$, $g^\alpha = g^a$, $g^\beta = g^b$, $e(g,g)^\alpha = e(g,g)^a$.
+    \item \textbf{Key queries}: For attribute set $S$, $\mathcal{B}$ computes $K_0 = g^{(\alpha+r)/\beta} = (g^a \cdot g^r)^{b^{-1}}$.
+    \item \textbf{Challenge}: $\mathcal{B}$ sets $s = c$, computes $C_0 = M_\gamma \cdot T$, $C_1 = g^{\beta s} = (g^b)^c$.
+\end{enumerate}
+
+If $T = e(g,g)^{abc}$, $\mathcal{B}$ simulates $\mathcal{G}_0$; if $T \in_R \mathbb{G}_T$, $\mathcal{B}$ simulates $\mathcal{G}_1$. Thus, $\mathcal{B}$ distinguishes DBDH with advantage equal to $|\text{Adv}_{\mathcal{A}}^{\mathcal{G}_0} - \text{Adv}_{\mathcal{A}}^{\mathcal{G}_1}|$.
+\end{proof}
+
+\subsubsection{Hybrid $\mathcal{G}_1 \rightarrow \mathcal{G}_2$}
+
+In $\mathcal{G}_2$, the challenger replaces $g^{\beta s}$ with a random element $R_1 \in_R \mathbb{G}$.
+
+\begin{lemma}
+\label{lem:g1_g2}
+$\text{Adv}_{\mathcal{A}}^{\mathcal{G}_1} - \text{Adv}_{\mathcal{A}}^{\mathcal{G}_2} \leq \text{Adv}_{\mathcal{B}}^{\text{DBDH}}$.
+\end{lemma}
+
+\begin{proof}
+Similar to Lemma~\ref{lem:g0_g1}. The challenger uses $g^b$ and $g^c$ to compute $g^{\beta s} = (g^b)^c$ or replaces it with random element $R_1$.
+\end{proof}
+
+\subsubsection{Hybrid $\mathcal{G}_2 \rightarrow \mathcal{G}_3$}
+
+In $\mathcal{G}_3$, the challenger replaces all $g^{s_y}$ with random elements $R_{y,0} \in_R \mathbb{G}$.
+
+\begin{lemma}
+\label{lem:g2_g3}
+$\text{Adv}_{\mathcal{A}}^{\mathcal{G}_2} - \text{Adv}_{\mathcal{A}}^{\mathcal{G}_3} \leq q_H / p$.
+\end{lemma}
+
+\begin{proof}
+This follows from the random oracle model for $H$. The challenger can simulate the LSSS secret sharing without knowing $s$ by using the selective security assumption.
+\end{proof}
+
+\subsubsection{Hybrid $\mathcal{G}_3 \rightarrow \mathcal{G}_4$}
+
+In $\mathcal{G}_4$, the challenger replaces all $H(\mathrm{attr}_y \| v_{\mathrm{attr}_y})^{s_y}$ with random elements $R_{y,1} \in_R \mathbb{G}$.
+
+\begin{lemma}
+\label{lem:g3_g4}
+$\text{Adv}_{\mathcal{A}}^{\mathcal{G}_3} - \text{Adv}_{\mathcal{A}}^{\mathcal{G}_4} \leq q_K / p$.
+\end{lemma}
+
+\begin{proof}
+Since the adversary does not know $s_y$ and $H$ is modeled as a random oracle, the values $H(\mathrm{attr}_y \| v_{\mathrm{attr}_y})^{s_y}$ are indistinguishable from random.
+\end{proof}
+
+\subsubsection{Hybrid $\mathcal{G}_4 \rightarrow \mathcal{G}_5$}
+
+In $\mathcal{G}_5$, the challenger replaces the time-binding factor $b = \mathcal{H}_Z(i \| T_i) \bmod p$ with a random element $b' \in_R \mathbb{Z}_p$.
+
+\begin{lemma}
+\label{lem:g4_g5}
+$\text{Adv}_{\mathcal{A}}^{\mathcal{G}_4} - \text{Adv}_{\mathcal{A}}^{\mathcal{G}_5} \leq q_T / p$.
+\end{lemma}
+
+\begin{proof}
+Since $\mathcal{H}_Z$ is modeled as a random oracle, $b$ is indistinguishable from random to the adversary.
+\end{proof}
+
+\subsubsection{Hybrid $\mathcal{G}_5 \rightarrow \mathcal{G}_6$}
+
+In $\mathcal{G}_6$, all components of the challenge ciphertext are random elements. The adversary's advantage is exactly $1/2$.
+
+\begin{lemma}
+\label{lem:g5_g6}
+$\text{Adv}_{\mathcal{A}}^{\mathcal{G}_6} = 1/2$.
+\end{lemma}
+
+\begin{proof}
+All ciphertext components are independent of $M_\gamma$, so the adversary cannot distinguish between $M_0$ and $M_1$.
+\end{proof}
+
+\subsection{Final Advantage Bound}
+
+Combining all lemmas:
+
+\begin{equation}
+\begin{aligned}
+\text{Adv}_{\mathcal{A}}^{\text{IND-qCPA-T}} &= |\text{Adv}_{\mathcal{A}}^{\mathcal{G}_0} - 1/2| \\
+&\leq |\text{Adv}_{\mathcal{A}}^{\mathcal{G}_0} - \text{Adv}_{\mathcal{A}}^{\mathcal{G}_1}| + |\text{Adv}_{\mathcal{A}}^{\mathcal{G}_1} - \text{Adv}_{\mathcal{A}}^{\mathcal{G}_2}| \\
+&\quad + |\text{Adv}_{\mathcal{A}}^{\mathcal{G}_2} - \text{Adv}_{\mathcal{A}}^{\mathcal{G}_3}| + |\text{Adv}_{\mathcal{A}}^{\mathcal{G}_3} - \text{Adv}_{\mathcal{A}}^{\mathcal{G}_4}| \\
+&\quad + |\text{Adv}_{\mathcal{A}}^{\mathcal{G}_4} - \text{Adv}_{\mathcal{A}}^{\mathcal{G}_5}| + |\text{Adv}_{\mathcal{A}}^{\mathcal{G}_5} - \text{Adv}_{\mathcal{A}}^{\mathcal{G}_6}| \\
+&\leq 2\,\text{Adv}_{\mathcal{B}}^{\text{DBDH}} + (q_H + q_K + q_T)/p.
+\end{aligned}
+\end{equation}
+
+This completes the proof of Theorem~1.
+
+\section{Forward Security of Hash-Chain Time Tokens}
+\label{sec:forward_security}
+
+\begin{lemma}
+\label{lem:forward_security}
+The hash-chain time token mechanism provides forward security. Given $T_i$ for period $i$, recovering any prior $T_j$ ($j < i$) requires inverting $i-j$ successive SHA-256 hash functions, which is computationally infeasible.
+\end{lemma}
+
+\begin{proof}
+The hash chain is constructed as $T_0 = H(\text{seed})$, $T_i = H(T_{i-1})$, where $H$ is SHA-256. By the preimage resistance of SHA-256, given $T_i$, computing $T_{i-1} = H^{-1}(T_i)$ is computationally infeasible. Since each step requires inverting SHA-256, recovering $T_j$ from $T_i$ requires $i-j$ inversions, each costing $O(p)$ queries to the random oracle for a total of $(i-j) \cdot O(p)$.
+\end{proof}
+
+\section{Revocation Soundness}
+\label{sec:revocation_soundness}
+
+\begin{lemma}
+\label{lem:revocation_soundness}
+Attribute revocation is sound: after revoking attribute $a$ by incrementing its version from $v_a$ to $v_a'$, users holding keys generated under version $v_a$ cannot decrypt ciphertexts encrypted under version $v_a'$.
+\end{lemma}
+
+\begin{proof}
+KeyGen computes $K_a = g^r \cdot H(a \| v_a)^{r_a}$ and $K'_a = g^{r_a}$. Encrypt computes $C_a = g^{s_a}$ and $C'_a = H(a \| v_a')^{s_a}$. During decryption, the user computes:
+
+\begin{equation}
+\begin{split}
+\frac{e(C_a, K_a)}{e(C'_a, K'_a)} &= \frac{e(g^{s_a}, g^r \cdot H(a \| v_a)^{r_a})}{e(H(a \| v_a')^{s_a}, g^{r_a})} \\
+&= e(g,g)^{r s_a} \cdot \frac{e(H(a \| v_a), H(a \| v_a'))^{r_a s_a}}{e(H(a \| v_a'), g)^{r_a s_a}}.
+\end{split}
+\end{equation}
+
+If $v_a \neq v_a'$, then $H(a \| v_a) \neq H(a \| v_a')$ since $H$ is collision-resistant. Thus, the decryption fails to recover $e(g,g)^{r s_a}$, and the user cannot compute the correct decryption key.
+\end{proof}
+
+\section{Collusion Resistance}
+\label{sec:collusion_resistance}
+
+\begin{lemma}
+\label{lem:collusion_resistance}
+Sentinel-CP-ABE is collusion-resistant: a coalition of users whose combined attributes do not satisfy the access policy cannot decrypt the ciphertext.
+\end{lemma}
+
+\begin{proof}
+The proof follows from the linear secret sharing scheme (LSSS) property. To decrypt, users must have attributes corresponding to a qualifying set $S \subseteq \{1, \ldots, n\}$ such that $|S| \geq k$ for THRESHOLD$(k,n)$ gates. If the coalition's combined attributes do not form a qualifying set, they cannot reconstruct the secret $s$ via Lagrange interpolation (Eq.~1 in main paper).
+
+Formally, for any coalition of users with attribute sets $S_1, S_2, \ldots, S_m$ such that $\bigcup_{i=1}^m S_i$ does not satisfy $\mathbb{A}$, the coalition cannot compute $e(g,g)^{r s}$ from their keys, making decryption impossible.
+\end{proof}
+
+\section{Pre-Release Unforgeability of Time Tokens}
+\label{sec:pre_release}
+
+\begin{lemma}
+\label{lem:pre_release}
+The TTA cannot forge time tokens for future periods before they are released.
+\end{lemma}
+
+\begin{proof}
+Time tokens are generated as $T_i = H(T_{i-1})$. To forge $T_{i+1}$ before releasing $T_i$, the TTA would need to compute $H(T_i)$ without knowing $T_i$, which is impossible due to the one-wayness of SHA-256.
+\end{proof}
+
+\section{Security Under Dynamic Perturbation}
+\label{sec:dyn_perturbation}
+
+\setcounter{table}{0}
+\setcounter{equation}{0}
+
+The IND-qCPA-T model (Section~\ref{sec:indscpat_proof}) assumes static
+queries after the commitment phase. In deployment, the AI-driven anomaly
+detector (EWMA threshold and diffusion scorer) operates on a live traffic
+stream where an adversary may attempt \emph{dynamic perturbations}---crafted
+inputs that gradually drift the adaptive threshold or evade the scorer.
+This section formalizes the resilience of the Sentinel-CP-ABE AI module
+against such attacks.
+
+\subsection{Three-Layer Adversary Model Comparison}
+\label{subsec:adv_comparison}
+
+Table~\ref{tab:adv_comparison} extends the conceptual comparison of
+Fig.~7 of the main paper with quantitative characteristics.
+
+\begin{table}[t]
+\centering
+\caption{Quantitative comparison of adversary models. R denotes $\mathbb{M}^*$
+is revealed before Setup; P before challenge; N never committed.
+Tightness gap indicates the multiplicative loss relative to the standard
+selective model.}
+\label{tab:adv_comparison}
+\begin{tabular}{lcccc}
+\toprule
+Property & Selective & IND-qCPA-T (Ours) & Fully Adaptive \\
+\midrule
+Policy commitment & R & P & N \\
+Revocation commitment & N/A & R & N \\
+Time commitment & R & R & N \\
+Tightness gap & $1\times$ & $1\times$ & $O(2^\ell)$ \\
+Key escrow risk & Single TA & DTA $(3,5)$ & Single TA \\
+AI perturbation tolerance & None & $\delta$-bounded & None \\
+\midrule
+Practical IIoT suitability & Low & \textbf{High} & Low \\
+\midrule
+\end{tabular}
+\end{table}
+
+\paragraph{Selective model.} The adversary commits to $t^*$ and $\mathbb{M}^*$
+before Setup. This simplifies security reduction (tightness $1\times$) but
+overestimates defender capability---real attacks observe public parameters
+before choosing which policy to target.
+
+\paragraph{Fully adaptive model.} The adversary commits to nothing before
+Setup. This is the strongest model but requires dual-system encryption,
+which introduces an exponential tightness gap $O(2^\ell)$ in $\ell$-attribute
+systems and does not naturally extend to temporal predicates or revocation.
+
+\paragraph{IND-qCPA-T (ours).} The adversary commits to $t^*$ and $R^*$
+(revocation state) before Setup---reflecting the realistic constraint that
+an attacker cannot predict the IIoT time epoch or revocation state---but
+chooses $\mathbb{M}^*$ adaptively after observing $PP$. The quasi-dynamic
+Init achieves the same tightness as the selective model ($1\times$) while
+admitting adaptive policy choice, providing the best practical trade-off
+for IIoT access control with time predicates.
+
+\subsection{Perturbation Resilience of the EWMA Threshold}
+\label{subsec:ewma_resilience}
+
+The EWMA threshold $\theta_t = \mu_t + \eta \sigma_t$ (adapted in
+Section~VI-D of the main paper) is vulnerable to a subtle attack: an
+adversary who can inject crafted low-score traffic can slowly raise
+$\mu_t$, making the threshold insensitive to genuine attacks. Conversely,
+injecting high-score noise raises $\sigma_t$ and destabilises the
+decision boundary. We quantify the EWMA's inherent resilience via its
+\emph{finite-memory property}.
+
+\paragraph{Bounded influence of adversarial samples.}
+EWMA updates the mean as $\mu_t = \alpha s_t + (1-\alpha)\mu_{t-1}$ with
+$\alpha = 0.1$. Expanding the recursion gives
+\begin{equation}
+\mu_t = \alpha \sum_{i=0}^{t-1} (1-\alpha)^i s_{t-i} + (1-\alpha)^t \mu_0.
+\label{eq:ewma_expand}
+\end{equation}
+The weight of a single sample at lag $\tau$ is $\alpha(1-\alpha)^\tau$.
+For $\alpha=0.1$, samples beyond $\tau=100$ carry weight $< 3\times 10^{-5}$.
+Thus, even if an adversary controls $m$ consecutive samples, the total
+influence is bounded by $m \cdot \alpha \leq 0.1 m$ in expectation;
+after the adversary stops injecting, the threshold returns to the true
+mean within approximately $1/\alpha = 10$ steps (\emph{self-correcting
+property}).
+
+\paragraph{Formal bound.}
+Let $\mu_t^*$ be the true (unperturbed) EWMA mean and $\tilde{\mu}_t$ be
+the mean under adversarial injection where at most $m$ out of the last $W$
+samples are adversarial with bounded deviation $\Delta s \leq \varepsilon$.
+Then
+\begin{equation}
+|\tilde{\mu}_t - \mu_t^*| \leq \varepsilon \cdot m \alpha
+\cdot \frac{1 - (1-\alpha)^W}{1 - (1-\alpha)}
+\leq \varepsilon \cdot m \cdot (1 - (1-\alpha)^W).
+\label{eq:ewma_bound}
+\end{equation}
+For $\alpha=0.1$, $W=100$, this simplifies to
+$|\tilde{\mu}_t - \mu_t^*| \leq \varepsilon \cdot m \cdot 0.99997$,
+confirming that the EWMA is \emph{self-limiting}: even persistent
+injection cannot produce an unbounded drift. In practice, the adversary
+cannot forge anomaly scores because the diffusion model requires valid
+network traffic as input; injecting arbitrary values would be rejected
+at the protocol level.
+
+\subsection{Diffusion Model Resilience to Gradient-Based Evasion}
+\label{subsec:diffusion_resilience}
+
+The anomaly scorer is a denoising diffusion model (DDPM) parameterised by
+a U-Net that predicts $\epsilon_\theta(x_t, t, c)$ over $T_d \in \{50,
+100, 200\}$ denoising steps. An adversary seeking to produce
+low-scoring versions of attack traffic must craft an input $x'$ such
+that the reconstruction error $\|x' - \hat{x}'\|$ is small despite $x'$
+being malicious.
+
+\paragraph{Multi-step gradient obfuscation.}
+The iterative denoising process inherently obfuscates the gradient
+signal available to an adversary. The reconstruction is a composition
+of $T_d$ learned transformations:
+\begin{equation}
+\hat{x}_0 = \bigcirc_{t=T_d}^{1} f_\theta(\hat{x}_t, t, c),
+\label{eq:ddpm_unfold}
+\end{equation}
+where $\bigcirc$ denotes function composition. Each step applies a
+small denoising increment with a learned U-Net block. The gradient of
+the final score $y = \mathcal{L}(\hat{x}_0, x)$ with respect to the
+input $x$ is a product of $T_d$ Jacobians:
+\begin{equation}
+\nabla_x y = \Bigl(\prod_{t=1}^{T_d} J_t\Bigr) \cdot \nabla_{\hat{x}_{T_d}} y,
+\qquad J_t = \frac{\partial f_\theta(\hat{x}_t, t, c)}{\partial \hat{x}_{t-1}}.
+\label{eq:grad_obfus}
+\end{equation}
+For each model parameterization learned over $\sim\!1.2$M parameters, the
+Jacobian $J_t$ at step $t$ in $T_d=100$ steps has a spectral norm
+bounded by $\rho_t < 1$ (a property enforced by the diffusion training
+objective \cite{Ho2020_DDPM}). Consequently, the composite
+gradient norm $\|\nabla_x y\| \leq \prod_{t=1}^{T_d} \rho_t \approx
+\rho^{T_d}$ decays exponentially in $T_d$, making precise
+gradient-based evasion computationally difficult.
+
+\paragraph{Empirical evidence.}
+Our experiments confirm this: the AUC consistently remains above $0.74$
+across UNSW-NB15 test sets, and the EWMA adaptive threshold with
+$\eta=1.0$ achieves $92.5\%$ precision, indicating that the detection
+boundary is not easily exploitable by score-manipulating adversaries.
+
+\paragraph{Caveat.}
+The above analysis assumes white-box access to the model parameters.
+In practice, the IIoT gateway runs the scorer as a trusted subprocess
+(separate from the ABE engine, Section~IV-C), and an external adversary
+has only black-box access via network traffic. Black-box transfer
+attacks from surrogate diffusion models remain an open challenge
+and are delegated to future work.
+
+\section{Post-Quantum Security Analysis}
+\label{sec:pq_analysis}
+
+The IND-qCPA-T security of Sentinel-CP-ABE relies on the DBDH assumption
+over bilinear groups (Section~\ref{sec:indscpat_proof}). Shor's algorithm,
+on a sufficiently large fault-tolerant quantum computer, can solve the
+discrete logarithm problem in $\mathbb{G}$ and $\mathbb{G}_T$ in
+polynomial time, thereby breaking DBDH and recovering the master key
+$MK = (\alpha, \beta)$. We analyze the transition path to post-quantum
+security.
+
+\subsection{Quantum Threat Assessment}
+
+Bilinear pairings $e: \mathbb{G}_0 \times \mathbb{G}_1 \to \mathbb{G}_T$
+are constructed on elliptic curves (\eg, SS512, BN254). Shor's
+algorithm~\cite{Shor1997} finds the group order and discrete log in
+$\mathbb{G}_0$ with $O(\log q)^3$ quantum gates, where $q \approx 2^{160}$
+for SS512. This implies:
+\begin{itemize}
+    \item \textbf{Confidentiality:} An adversary with a fault-tolerant
+    quantum computer can compute $\alpha = \log_g g^\alpha$ from $PP$,
+    derive $MK$, and decrypt any ciphertext.
+    \item \textbf{Key escrow amplification:} The $(t,n)$-threshold
+    DTA mitigates single-point compromise against classical adversaries,
+    but a quantum adversary can break each share independently via
+    discrete log on the Feldman commitments.
+\end{itemize}
+
+\subsection{Practical Countermeasures}
+
+Three candidate post-quantum primitives are compatible with the
+Sentinel-CP-ABE framework:
+
+\begin{enumerate}
+    \item \textbf{Ring-LWE-based CP-ABE~\cite{Gasparini2026_LatticeBenchmark, Purnima2025_PQSurvey}:}
+    Replaces $e(g,g)^{\alpha s}$ with $\lfloor \mathbf{a}^T \mathbf{s} \rfloor_q$,
+    eliminating pairings entirely. Security reduces to Module-LWE.
+    The primary barrier for IIoT is key/ciphertext size:
+    \begin{itemize}
+        \item Bilinear SS512: 64-byte group element, 20--40 KB ciphertext
+        \item Ring-LWE (Kyber-1024 parameters): 1.3--3.8 KB ciphertext
+        (competitive with pairings)
+        \item Ring-LWE (128-bit post-quantum): 10--40 KB per attribute
+        (prohibitive for 10+ attribute policies at gateway scale)
+    \end{itemize}
+    \item \textbf{Code-based ABE~\cite{Poomekum2025_Lattice}:}
+    Uses McEliece-type or QC-MDPC codes for key encapsulation.
+    Key sizes are larger (1--10 MB) but decryption is faster than
+    lattice-based counterparts, suitable for resource-rich edge servers.
+    \item \textbf{Hybrid pairing-lattice:}
+    Encrypts the ABE payload under a classical CP-ABE and encapsulates
+    the session key under a KEM (\eg, Kyber). This preserves the
+    small-ciphertext advantage of pairings for routine operations while
+    providing quantum resistance for key establishment. The 10--100$\times$
+    overhead cited in Section~VII of the main paper applies only to
+    fully lattice-based ciphertexts; hybrid schemes incur only the
+    Kyber encapsulation cost ($\sim$1.6 KB per ciphertext).
+\end{enumerate}
+
+Among these, the hybrid approach offers the most practical transition
+path: it requires no changes to the core ABE construction, adds a
+quantum-safe KEM layer that can be independently audited, and keeps
+the per-request latency below 2 ms for IIoT gateways with hardware
+acceleration (AES-NI + vector instructions for Kyber).
+
+\section{Additional Technical Details}
+
+\subsection{Lagrange Interpolation for Threshold Gates}
+
+For a THRESHOLD$(k,n)$ gate, the secret $s$ is distributed via a degree-$(k-1)$ polynomial $f(x) = s + a_1 x + \cdots + a_{k-1} x^{k-1}$ where $a_1, \ldots, a_{k-1} \in_R \mathbb{Z}_p$. Share $\lambda_i = f(i)$ is assigned to attribute $i$. Any $k$ shares $\{\lambda_j\}_{j \in S}$ with $|S| = k$ recover $s$ via:
+
+\begin{equation}
+s = \sum_{j \in S} \lambda_j \cdot \Delta_{j,S}(0), \quad
+\Delta_{j,S}(0) = \prod_{\substack{i \in S, \, i \neq j}} \frac{-i}{j - i}.
+\end{equation}
+
+\subsection{Time-Binding Factor Computation}
+
+The time-binding factor $b = \mathcal{H}_Z(i \| T_i) \bmod p$ is computed as follows:
+
+\begin{enumerate}
+    \item Concatenate period index $i$ (as 4-byte big-endian) with time token $T_i$ (32 bytes for SHA-256)
+    \item Apply SHA-256 to the concatenated string
+    \item Reduce the resulting 256-bit value modulo $p$ to obtain $b \in \mathbb{Z}_p$
+\end{enumerate}
+
+\subsection{BLS Signature Integration}
+
+BLS signatures are used to bind ciphertexts to their intended epoch:
+
+\begin{enumerate}
+    \item \textbf{Sign}: $\sigma = H_{\text{BLS}}(CT)^{sk}$, where $H_{\text{BLS}}$ maps the full ciphertext to $\mathbb{G}_1$
+    \item \textbf{Verify}: $e(\sigma, h) = e(H_{\text{BLS}}(CT), pk)$
+\end{enumerate}
+
+This ensures ciphertext integrity and prevents epoch substitution attacks.
+
+\section{Grad-CAM Explainability Module}
+\label{sec:gradcam_supp}
+
+We adapt Gradient-weighted Class Activation Mapping (Grad-CAM), a technique recently applied in explainable IoT security frameworks~\cite{Upender2025_CyberDetect}, to the multi-layer perceptron (MLP) embedding space of the diffusion model. Unlike convolutional networks where spatial activations are preserved, our MLP operates on a flat 128-dimensional embedding vector. The gradient signal is therefore back-propagated through fully connected layers to the input embedding.
+
+\subsection{Algorithm}
+
+Let $A \in \mathbb{R}^{d}$ be the activation vector at the penultimate layer ($d=128$), and let $y \in \mathbb{R}$ be the pre-threshold anomaly score. The importance weight for dimension $k$ is:
+
+\[
+w_k = \frac{1}{Z} \sum_{i} \frac{\partial y}{\partial A_{i,k}}
+\]
+
+where the sum runs over all batch samples $i$ and $Z$ is a normalization constant. The final Grad-CAM heatmap is:
+
+\[
+L = \text{ReLU}\left(\sum_{k} w_k \cdot A_k\right)
+\]
+
+The ReLU ensures that only features with a positive influence on the anomaly score are visualized.
+
+\subsection{Interpretation}
+
+The resulting heatmap indicates which embedding dimensions contribute most to the anomaly decision. Our analysis across UNSW-NB15 test samples reveals:
+
+\begin{itemize}
+    \item \textbf{Structured attribution:} Each True Positive activates a mean of $49.5 \pm 2.7$ embedding dimensions (coefficient of variation $<6\%$), indicating the detector learns stable, structured feature separation rather than spurious correlations.
+    \item \textbf{Noise rejection:} The bottom 60\% of dimensions have near-zero attribution weights ($|w_k| < 0.01$), confirming the model does not rely on spurious correlations.
+    \item \textbf{False positive analysis:} Grad-CAM heatmaps of False Positives show diffuse attribution patterns (20--30+ active dimensions), enabling operators to distinguish between genuine anomalies and threshold-boundary noise.
+\end{itemize}
+
+\subsection{Limitations and Alternatives}
+
+Grad-CAM for MLPs is computationally lightweight ($<0.1$\,ms per request) but provides feature-level rather than attribute-level attribution. For fine-grained attribute-level explainability, alternative methods such as SHAP or Integrated Gradients have been systematically evaluated for IoT anomaly detection~\cite{Gummadi2025_XAI_IoT}. We adopt Grad-CAM as the primary explainability method due to its low overhead suitable for online IIoT access control.
+
+\section{Reproducibility Appendix}
+\label{sec:reproducibility}
+
+This appendix documents the experimental configuration, dataset
+preprocessing, hyperparameters, and seed management necessary to
+reproduce all experimental results reported in the main paper and
+this supplementary material.
+
+\subsection{Hardware and Software Environment}
+
+All experiments were conducted on a single machine with the following
+specifications:
+
+\begin{itemize}
+    \item \textbf{CPU}: Intel Xeon Gold 6248R (3.0\,GHz, 24 cores, 48 threads)
+    \item \textbf{RAM}: 128\,GB DDR4 (2666\,MHz)
+    \item \textbf{Storage}: 1\,TB NVMe SSD (Seq. read $\sim$3.5\,GB/s)
+    \item \textbf{OS}: Ubuntu 20.04.6 LTS (Linux kernel 5.4.0)
+    \item \textbf{Python}: 3.9.18 (conda environment)
+    \item \textbf{Charm-Crypto}: 2.7.0 (pbc-0.5.14, OpenSSL 1.1.1)
+    \item \textbf{Deep learning}: PyTorch 2.1.0 (CUDA 11.8, cuDNN 8.7)
+    \item \textbf{Curves}: SS1024 (bilinear, $\sim$128-bit security);
+    SS512 (distributed TA benchmark, $\sim$80-bit security)
+\end{itemize}
+
+Performance variance across runs is dominated by CPU frequency scaling
+and memory bandwidth contention (25 Hyper-Threading sibling pairs share
+the L3 cache). All reported latencies are wall-clock times measured via
+\verb|time.perf_counter()| with a warm-up phase of 10 iterations.
+
+\subsection{Dataset Preprocessing}
+
+The UNSW-NB15 dataset~\cite{UNSWNB15} was preprocessed as follows:
+
+\begin{enumerate}
+    \item \textbf{Column selection:} retain 42 flow features (numeric
+    and categorical). Remove ``id'', ``attack\_cat'', and ``label'' as
+    they are not input features.
+    \item \textbf{Categorical encoding:} one-hot encode ``proto'',
+    ``service'', and ``state'' columns (3 $\to$ 213 binary columns).
+    \item \textbf{Missing value handling:} drop rows with any NaN
+    (621 rows out of 2,540,040, $<0.03\%$). No imputation is applied.
+    \item \textbf{Normalisation:} min--max scale each numeric column to
+    $[0,1]$ using per-column minimum and maximum computed on the
+    training set only. Test set values are clamped to $[0,1]$ post-scaling.
+    \item \textbf{Embedding:} reduce the 255-dimensional preprocessed
+    vector to 128 dimensions via a linear projection layer trained
+    jointly with the diffusion model (no separate pre-training).
+    \item \textbf{Train/test split:} stratified 70/30 split preserving
+    class distribution. Training set: 1,500 normal + 150 attack flows.
+    Test set: 500 normal + 214 attack flows (the test set reported in
+    Table~II of the main paper).
+\end{enumerate}
+
+\subsection{Hyperparameter Configuration}
+
+Tables~\ref{tab:repro_cpabe}--\ref{tab:repro_ewma} list all tunable
+hyperparameters. Unless otherwise stated, the ``default'' column
+is used for the reported experiments.
+
+\begin{table}[t]
+\centering
+\caption{CP-ABE and hash chain hyperparameters.}
+\label{tab:repro_cpabe}
+\begin{tabular}{llc}
+\toprule
+\textbf{Parameter} & \textbf{Description} & \textbf{Value} \\
+\midrule
+Curve & Bilinear group & SS1024 / SS512 \\
+$p$ & Group order & 256-bit (SS1024) \\
+$\lambda$ & Security parameter & 128 \\
+$\alpha, \beta$ & Master key exponents & $\in_R \mathbb{Z}_p$ \\
+CHUNK & Encrypt chunk size & 10 \\
+$N$ & Chain length & 8760 (hour-level) \\
+$\Delta$ & Checkpoint interval & 100 \\
+$W$ & Sliding window size & 10 \\
+$|S_U|$ & User attribute universe & 10, 100, 1000, 10000 \\
+$|S_T|$ & Policy attribute count & 10 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Diffusion model hyperparameters.}
+\label{tab:repro_diffusion}
+\begin{tabular}{llc}
+\toprule
+\textbf{Parameter} & \textbf{Description} & \textbf{Value} \\
+\midrule
+$T_d$ & Denoising steps & 50, 100, 200 \\
+Embed dim & U-Net input dimension & 128 \\
+Hidden dim & MLP hidden layer & 256 \\
+Num layers & MLP depth & 4 \\
+Dropout & Dropout rate & 0.2 \\
+Batch size & Training batch & 32 \\
+Learning rate & AdamW initial LR & $1\times10^{-3}$ \\
+Weight decay & AdamW weight decay & $1\times10^{-4}$ \\
+Scheduler & LR schedule & Cosine annealing \\
+Epochs & Training epochs & 200 \\
+Guidance scale & CFG scale $w$ & 2.0 \\
+Noise schedule & Variance schedule & Linear ($\beta_1=10^{-4}$, $\beta_{T}=0.02$) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{EWMA adaptive threshold hyperparameters.}
+\label{tab:repro_ewma}
+\begin{tabular}{llc}
+\toprule
+\textbf{Parameter} & \textbf{Description} & \textbf{Value} \\
+\midrule
+$\alpha$ & Smoothing factor & 0.1 \\
+$\eta$ & Sensitivity (default) & 1.0 \\
+$\eta$ sweep & Sensitivity range & $\{0.5, 1.0, 1.5, 2.0\}$ \\
+$\mu_0$ & Initial mean & 0.0 \\
+$\sigma_0$ & Initial std & 0.1 \\
+Min samples & Warm-up period & 30 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Distributed TA (DTA) hyperparameters.}
+\label{tab:repro_dta}
+\begin{tabular}{llc}
+\toprule
+\textbf{Parameter} & \textbf{Description} & \textbf{Value} \\
+\midrule
+$(t,n)$ & Threshold confs. & (2,3),(3,5),(4,7),(5,10),(7,10) \\
+$p$ & SSS modulus & $p$ of SS512 (160-bit) \\
+Iterations & Per-config trials & 100 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Seed Management and Randomness}
+
+All experiments use explicit seeding for reproducibility:
+
+\begin{itemize}
+    \item \textbf{Python RNG}: \verb|random.seed(42)|
+    \item \textbf{NumPy RNG}: \verb|numpy.random.seed(42)|
+    \item \textbf{PyTorch RNG}: \verb|torch.manual_seed(42)|
+    \item \textbf{CUDA RNG}: \verb|torch.cuda.manual_seed_all(42)|
+    \item \textbf{CP-ABE RNG}: Charm-Crypto samples $\mathbb{Z}_p$
+    via OpenSSL DRBG (no seed exposed); variance across runs is $<$1\%
+    after warm-up.
+    \item \textbf{CUDA determinism}: \verb|torch.backends.cudnn.deterministic = True|,
+    \verb|torch.backends.cudnn.benchmark = False|
+\end{itemize}
+
+\subsection{How to Reproduce Each Result}
+
+\begin{enumerate}
+    \item \textbf{Scalability (Table~I)}: run \verb|benchmark_scalability.py|
+    with attribute counts $\{10,100,1000,10000\}$.
+    \item \textbf{Hash chain (Table~II)}: run
+    \verb|benchmark_hash_chain.py| with $N \in \{10^3, 10^4, 10^5\}$,
+    $\Delta = 100$, $W = 10$.
+    \item \textbf{Checkpoint ablation}: run
+    \verb|benchmark_hash_chain.py --delta-sweep|.
+    \item \textbf{Time granularity}: run
+    \verb|benchmark_hash_chain.py --granularity|.
+    \item \textbf{Anomaly detection (Table~II)}: run
+    \verb|evaluate_unsw_nb15.py|.
+    \item \textbf{Grad-CAM}: run \verb|test_gradcam.py|
+    (outputs heatmap visualisations).
+    \item \textbf{Distributed TA (Table~V)}: run
+    \verb|test_distributed_ta.py|.
+    \item \textbf{Ablation (Fig.~6)}: run \verb|benchmark_ablation.py|
+    with each component toggled.
+    \item \textbf{Real-world scenarios}: run
+    \verb|benchmark_real_world.py| with each scenario policy.
+\end{enumerate}
+
+All scripts are located in the \verb|experiments/| directory of the
+source repository. A \verb|Dockerfile| and \verb|docker-compose.yml|
+are provided to reproduce the Ubuntu~20.04\slash Charm-Crypto\slash
+PyTorch environment.
+
+\section{Core Algorithm Specifications}
+\label{sec:algorithms_supp}
+
+This section provides the complete algorithmic specifications of
+Sentinel-CP-ABE's core procedures, referenced from Section~V of the
+main paper.
+
+\begin{algorithm}[H]
+\caption{Setup($\lambda$)}
+\textbf{Input:} $\lambda$, security parameter. \textbf{Output:} $PP, MK$.\;
+\begin{algorithmic}[1]
+\STATE Sample $\mathbb{G}, \mathbb{G}_T, e: \mathbb{G} \times \mathbb{G} \rightarrow \mathbb{G}_T$
+\STATE Sample $g \in_R \mathbb{G}$, $\alpha, \beta \in_R \mathbb{Z}_p$
+\STATE Compute $h = g^\beta$, $e(g,g)^\alpha$
+\STATE Initialize hash chain: $T_0 = H(\text{seed})$, $T_i = H(T_{i-1})$ for $i=1,\ldots,N$
+\STATE Output $PP = (g, h, e(g,g)^\alpha, H, \mathcal{H}_Z, T_N, p)$
+\STATE Output $MK = (\alpha, \beta)$
+\end{algorithmic}
+\label{alg:setup_supp}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\caption{KeyGen($PP, MK, S$)}
+\textbf{Input:} $PP$, public parameters; $MK$, master key; $S$, attribute set. \textbf{Output:} $SK$, secret key.\;
+\begin{algorithmic}[1]
+\STATE Sample $r \in_R \mathbb{Z}_p$
+\STATE Compute $K_0 = g^{(\alpha+r)/\beta}$
+\STATE For each $a \in S$:
+    \STATE \quad Sample $r_a \in_R \mathbb{Z}_p$
+    \STATE \quad Compute $K_a = g^r \cdot H(a \| v_a)^{r_a}$
+    \STATE \quad Compute $K'_a = g^{r_a}$
+\STATE Output $SK = (K_0, \{K_a, K'_a\}_{a \in S})$
+\end{algorithmic}
+\label{alg:keygen_supp}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\caption{Encrypt($PP, M, \mathbb{A}, T_p$)}
+\textbf{Input:} $PP$; $M$, plaintext; $\mathbb{A}=( \mathbb{M}, \rho)$, LSSS policy; $T_p$, time predicate. \textbf{Output:} $CT$, ciphertext.\;
+\begin{algorithmic}[1]
+\STATE Sample $s \in_R \mathbb{Z}_p$
+\STATE Compute $C_0 = M \cdot e(g,g)^{\alpha s}$, $C_1 = g^{\beta s}$
+\STATE Share $s$ via LSSS: for each row $y$ of $\mathbb{M}$:
+    \STATE \quad Compute $C_y = g^{s_y}$, $C'_y = H(\rho(y) \| v_{\rho(y)})^{s_y}$
+\STATE Obtain $T_i$ from TTA, compute $b = \mathcal{H}_Z(i \| T_i) \bmod p$
+\STATE Update $C_0 \leftarrow C_0 \cdot e(g,g)^{\alpha \cdot b}$ (optional time binding)
+\STATE Sign $(C_0, \{C_y, C'_y\}_y, i)$ with BLS signature $\sigma$ (optional)
+\STATE Output $CT = (C_0, C_1, \{C_y, C'_y\}_y, \mathbb{A}, T_p, i, \sigma)$
+\end{algorithmic}
+\label{alg:encrypt_supp}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\caption{Decrypt($PP, CT, SK$)}
+\textbf{Input:} $PP$; $CT$, ciphertext; $SK$, secret key. \textbf{Output:} $M$, plaintext or $\bot$.\;
+\begin{algorithmic}[1]
+\STATE Verify BLS signature $\sigma$; abort if invalid (optional)
+\STATE Read $i$ from $CT$, obtain $T_i$ from TTA (if time binding enabled)
+\STATE Verify $H^{N-i}(T_i) \stackrel{?}{=} T_N$; abort if fails (if time binding enabled)
+\STATE Compute $b = \mathcal{H}_Z(i \| T_i) \bmod p$ (if time binding enabled)
+\STATE Remove time binding: $C_0' = C_0 / e(g,g)^{\alpha \cdot b}$ (if time binding enabled)
+\STATE For each leaf $y$ with $\rho(y) \in S$:
+    \STATE \quad Compute $A_y = e(C_y, K_{\rho(y)}) / e(C'_y, K'_{\rho(y)})$
+\STATE Reconstruct $A = e(g,g)^{r \cdot s}$ via Lagrange interpolation
+\STATE Recover $M = C_0' / (e(C_1, K_0) / A)$
+\STATE Output $M$
+\end{algorithmic}
+\label{alg:decrypt_supp}
+\end{algorithm}
+
+\end{document}
